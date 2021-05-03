@@ -1,11 +1,16 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import './App.css'
 
 import Navbar from './components/Navbar.js'
+// import Hero from './components/Hero'
 
 function App() {
   return (
-    <Navbar/>
+    <div>
+      <Navbar></Navbar>
+      {/* <Hero></Hero> */}
+    </div>
+    
   );
 }
 
