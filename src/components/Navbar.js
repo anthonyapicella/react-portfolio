@@ -4,10 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Navbar = () => {
 	return (
-		<nav className='navbar navbar-expand-lg navbar-dark bg-dark p-3'>
+		<nav className='navbar navbar-expand-lg navbar-dark bg-dark p-2'>
 			{/* <div className='container'> */}
-			<a className='navbar-brand ml-1' href='#'>
-				Anthony Apicella
+			<a className='navbar-brand pl-4' href='#'>
+				A<span className='camel-A'>A</span>
 			</a>
 			<button
 				className='navbar-toggler'
@@ -52,10 +52,6 @@ const Navbar = () => {
 							</a>
 							<a className='dropdown-item' href='#'>
 								Project #3
-							</a>
-							<div className='dropdown-divider'></div>
-							<a className='dropdown-item' href='#'>
-								Separated link
 							</a>
 						</div>
 					</li>
