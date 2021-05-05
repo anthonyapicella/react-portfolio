@@ -2,7 +2,7 @@
 	--primary: #083359;
 	--secondary: #024873;
 	--tertiary: whitesmoke;
-	--dark: ##062a40;
+	--dark: #062a40;
 	--light: #5888a6;
 	--shadow: #023759;
 }
@@ -28,7 +28,7 @@ html body {
 }
 
 .camel-A {
-	font-size: 2.75rem;
+	font-size: 2rem;
 }
 
 nav ul li {
@@ -36,7 +36,7 @@ nav ul li {
 	/* font-family: 'Antonio', sans-serif; */
 	font-weight: 300;
 	font-size: 1.3rem;
-    letter-spacing: 0.04rem;
+	letter-spacing: 0.2rem;
 	filter: drop-shadow(3px 2px 3px #121212);
 }
 
@@ -46,16 +46,14 @@ a.nav-link:focus {
 }
 
 .dropdown-menu {
-	background: linear-gradient(
-		0deg,
-		#0248735d,
-		#083359a8);
+	background: linear-gradient(0deg, #0248735d, #083359a8);
 }
 
 .dropdown-item {
 	color: var(--tertiary) !important;
 	filter: drop-shadow(0.25rem 0.188rem 0.25rem #1a1a1a);
 }
+
 /* HERO */
 
 .hero {
@@ -63,19 +61,31 @@ a.nav-link:focus {
 	background: linear-gradient(
 			0deg,
 			rgba(58, 65, 70, 0.16),
-			rgba(46, 46, 75, 0.366)),
+			rgba(46, 46, 75, 0.366)
+		),
 		url(../src/assets/img/codeBackgroung.jpeg);
 	background-size: cover;
 	background-position: center;
-	height: 95vh;
+	height: 100vh;
 }
 
 .blur {
-	background: #5888a66a;
-	backdrop-filter: blur(4.5px);
-	height: 95vh;
+	background: #5888a661;
+	backdrop-filter: blur(2.7px);
+	height: 100vh;
 	width: 100%;
 }
+
+/* **Particle Effect** */
+
+.tsparticles-canvas-el {
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	z-index: 1;
+}
+
+/*******/
 
 .heading {
 	display: flex;
@@ -92,19 +102,66 @@ a.nav-link:focus {
 	filter: drop-shadow(3px 2px 3px #121212);
 }
 
-h1{
-    font-size: 3rem;
+h1 {
+	font-size: 5.7rem;
+	padding-bottom: 1rem;
+}
+h2 {
+	font-size: 3rem;
 }
 
 .typed-text {
-	font-size: 1.5rem;
+	font-size: 2.3rem;
 }
 
-/* hero button */
+
+
+/* hero button ***************/
 
 .btn-main-offer {
+	background-color: var(--primary);
 	color: var(--tertiary);
 	text-transform: uppercase;
+	font-size: 1.1rem;
 	border-radius: 0;
 	padding: 10px 12px 12px 12px;
+	z-index: 3;
+}
+
+.btn-main-offer:hover {
+	text-decoration: none;
+}
+
+
+/********** MEDIA Q ********/
+
+@media (max-width: 768px) {
+	.navbar-brand {
+		/* font-family: 'Antonio', sans-serif; */
+		font-weight: 100;
+		font-size: 1.75rem;
+		filter: drop-shadow(3px 2px 3px #121212);
+	}
+}
+
+/* particles */
+@media (max-width: 768px) {
+	.particles-canvas {
+		display: none;
+	}
+}
+
+/* Hero text */
+@media (max-width: 768px) {
+	.heading h1 {
+		font-size: 2rem !important;
+		padding: 0;
+	}
+
+	.heading h2{
+		font-size: 1.1rem !important;
+	}
+	.typed-text {
+		font-size: 1.3rem !important;
+	}
 }
