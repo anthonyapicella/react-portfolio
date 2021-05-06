@@ -10,7 +10,34 @@
 html body {
 	font-family: 'Antonio', sans-serif;
 	color: var(--tertiary) !important;
+	background-color: var(--primary);
 }
+
+h1 {
+	font-size: 5.7rem;
+	padding-bottom: 1rem;
+	filter: drop-shadow(3px 2px 3px #121212);
+	
+}
+h2 {
+	font-size: 3rem;
+	filter: drop-shadow(3px 2px 3px #121212);
+}
+
+h3 {
+	filter: drop-shadow(3px 2px 3px #121212);
+}
+
+p {
+	font-size: 1.2rem;
+	font-weight: 100;
+	filter: drop-shadow(3px 2px 3px #121212);
+}
+
+br {
+	display: block;
+	margin: 6px 0;
+ }
 
 /* NAVBAR STYLES */
 
@@ -60,8 +87,8 @@ a.nav-link:focus {
 	position: relative;
 	background: linear-gradient(
 			0deg,
-			rgba(58, 65, 70, 0.16),
-			rgba(46, 46, 75, 0.366)
+			rgba(58, 65, 70, 0.133),
+			rgba(46, 46, 75, 0.332)
 		),
 		url(../src/assets/img/codeBackgroung.jpeg);
 	background-size: cover;
@@ -70,11 +97,15 @@ a.nav-link:focus {
 }
 
 .blur {
-	background: #5888a661;
-	backdrop-filter: blur(2.7px);
+	background: #5888a64e;
+	backdrop-filter: blur(2.5px);
 	height: 100vh;
 	width: 100%;
 }
+
+/* ******* aboutMe Section******** */
+
+
 
 /* **Particle Effect** */
 
@@ -102,16 +133,9 @@ a.nav-link:focus {
 	filter: drop-shadow(3px 2px 3px #121212);
 }
 
-h1 {
-	font-size: 5.7rem;
-	padding-bottom: 1rem;
-}
-h2 {
-	font-size: 3rem;
-}
-
 .typed-text {
 	font-size: 2.3rem;
+	filter: drop-shadow(3px 2px 3px #121212);
 }
 
 
@@ -145,11 +169,11 @@ h2 {
 }
 
 /* particles */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 	.particles-canvas {
 		display: none;
 	}
-}
+} */
 
 /* Hero text */
 @media (max-width: 768px) {
