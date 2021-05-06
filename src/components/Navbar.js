@@ -28,7 +28,7 @@ const Navbar = () => {
 						</a>
 					</li>
 					<li className='nav-item'>
-						<a className='nav-link' href='#'>
+						<a className='nav-link' href='#AboutMe'>
 							About Me
 						</a>
 					</li>
@@ -52,6 +52,15 @@ const Navbar = () => {
 							</a>
 							<a className='dropdown-item' href='#'>
 								Project #3
+							</a>
+							<a className='dropdown-item' href='#'>
+								Project #4
+							</a>
+							<a className='dropdown-item' href='#'>
+								Project #5
+							</a>
+							<a className='dropdown-item' href='#'>
+								Project #6
 							</a>
 						</div>
 					</li>

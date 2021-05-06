@@ -1,5 +1,6 @@
 import React from 'react';
 import headshot from '../assets/img/HEADSHOT.png';
+import Skills from './Skills';
 
 const AboutMe = () => {
 	return (
@@ -7,7 +8,7 @@ const AboutMe = () => {
 			<div className='row'>
 				<div className='col-lg-6 col-xm12 pb-2'>
 					<img
-						className='img-fluid rounded-lg shadow-lg'
+						className='img-fluid rounded-lg shadow-lg pt-3'
 						src={headshot}
 						alt='headshot'
 					/>
@@ -15,9 +16,8 @@ const AboutMe = () => {
 				<div className='col-lg-6 col-xm12 pt-2'>
 					<h3>aboutMe</h3> <br />
 					<p>
-						{' '}
-						My name is Anthony -- I'm a husband, a father and a
-						creator.{' '}
+						My name is Anthony -- I'm a husband, a father, and a
+						creator.
 					</p>
 					<p>
 						Growing up in NYC, I dreamed of one day becoming a
@@ -34,6 +34,7 @@ const AboutMe = () => {
 					<p>Now, I'm acting like a web developer.</p>
 				</div>
 			</div>
+			<Skills/>
 		</div>
 	);
 };

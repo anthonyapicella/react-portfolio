@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "@testing-library/jest-dom": "^5.11.10",
@@ -41,5 +43,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@iconify-icons/cib": "^1.1.0",
+    "@iconify-icons/grommet-icons": "^1.1.1",
+    "@iconify-icons/logos": "^1.1.9",
+    "@iconify-icons/simple-icons": "^1.1.23",
+    "@iconify/react": "^1.1.4"
   }
 }

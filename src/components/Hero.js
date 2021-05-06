@@ -10,13 +10,11 @@ const Hero = () => {
 					<h1>Anthony Apicella</h1>
 					<h2>Full-Stack Web Developer</h2>
 					<Typed
-						className='typed-text p-2'
+						className='typed-text'
 						strings={[
 							'HTML/CSS',
-							'REACT',
-							'Node.js',
-							'MySQL',
-							'MongoDB',
+							'JavaScript',
+							'MERN stack'
 							// 'Full-Stack Web Developer',
 						]}
 						typeSpeed={60}
