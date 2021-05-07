@@ -4,9 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Navbar = () => {
 	return (
-		<nav className='navbar navbar-expand-lg navbar-dark bg-dark pl-5 pr-5 pb-4 justify-content-between sticky-top'>
+		<nav className='navbar navbar-expand-lg navbar-dark bg-dark pl-5 pr-5 pb-2 justify-content-between sticky-top'>
 			{/* <div className='container'> */}
-			<a className='navbar-brand pl-3' href='#'>
+			<a className='navbar-brand pl-1' href='#'>
 				anthony<span className='camel-A'>A</span>picella
 			</a>
 			<button
@@ -20,7 +20,10 @@ const Navbar = () => {
 			>
 				<span className='navbar-toggler-icon'></span>
 			</button>
-			<div className='collapse navbar-collapse justify-content-end m' id='navbarNav'>
+			<div
+				className='collapse navbar-collapse justify-content-end m'
+				id='navbarNav'
+			>
 				<ul className='navbar-nav'>
 					<li className='nav-item active'>
 						<a className='nav-link' href='#'>
@@ -28,56 +31,27 @@ const Navbar = () => {
 						</a>
 					</li>
 					<li className='nav-item'>
-						<a className='nav-link' href='#AboutMe'>
+						<a className='nav-link' href='#aboutMe'>
 							About Me
 						</a>
 					</li>
-					<li className='nav-item dropdown'>
-						<a
-							className='nav-link dropdown-toggle'
-							data-toggle='dropdown'
-							href='#'
-							role='button'
-							aria-haspopup='true'
-							aria-expanded='false'
-						>
+					<li className='nav-item'>
+						<a className='nav-link' href='#myWork'>
 							My Work
 						</a>
-						<div className='dropdown-menu'>
-							<a className='dropdown-item' href='#'>
-								Project #1
-							</a>
-							<a className='dropdown-item' href='#'>
-								Project #2
-							</a>
-							<a className='dropdown-item' href='#'>
-								Project #3
-							</a>
-							<a className='dropdown-item' href='#'>
-								Project #4
-							</a>
-							<a className='dropdown-item' href='#'>
-								Project #5
-							</a>
-							<a className='dropdown-item' href='#'>
-								Project #6
-							</a>
-						</div>
 					</li>
-
 					<li className='nav-item'>
-						<a className='nav-link' href='#'>
+						<a className='nav-link' href='#resume'>
 							Resume
 						</a>
 					</li>
 					<li className='nav-item'>
-						<a className='nav-link' href='#'>
+						<a className='nav-link' href='#contact'>
 							Contact
 						</a>
 					</li>
 				</ul>
 			</div>
-			{/* </div> */}
 		</nav>
 	);
 };

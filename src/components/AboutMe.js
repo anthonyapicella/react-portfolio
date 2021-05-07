@@ -4,7 +4,7 @@ import Skills from './Skills';
 
 const AboutMe = () => {
 	return (
-		<div className='container py-5'>
+		<div id='aboutMe' className='container py-5'>
 			<div className='row'>
 				<div className='col-lg-6 col-xm12 pb-2'>
 					<img
@@ -14,7 +14,7 @@ const AboutMe = () => {
 					/>
 				</div>
 				<div className='col-lg-6 col-xm12 pt-2'>
-					<h3>aboutMe</h3> <br />
+					<h2>aboutMe</h2> <br />
 					<p>
 						My name is Anthony -- I'm a husband, a father, and a
 						creator.
