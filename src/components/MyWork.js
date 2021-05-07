@@ -78,9 +78,9 @@ const MyWork = () => {
 					alt='Employee Tracker'
 				/>
 				<p>
-					Employee Tracker is a command-line application that provides a solution for
-					managing a company's employees; using node, inquirer, and
-					MySQL.
+					Employee Tracker is a command-line application that provides
+					a solution for managing a company's employees; using node,
+					inquirer, and MySQL.
 				</p>
 				<b>Demo:</b>{' '}
 				<a
@@ -131,8 +131,8 @@ const MyWork = () => {
 					alt='E-Commerce Back-End'
 				/>
 				<p>
-					This E-Commerce project a working Express.js API to use Sequelize to interact with a
-					MySQL database.
+					This E-Commerce project a working Express.js API to use
+					Sequelize to interact with a MySQL database.
 				</p>
 				<b>Demo:</b>{' '}
 				<a
@@ -183,10 +183,10 @@ const MyWork = () => {
 					alt='Team Profile Generator'
 				/>
 				<p>
-					Team Profile Generator is a Node.js command-line application that takes in information
-					about employees on a software engineering team, then
-					generates an HTML webpage that displays summaries for each
-					person.
+					Team Profile Generator is a Node.js command-line application
+					that takes in information about employees on a software
+					engineering team, then generates an HTML webpage that
+					displays summaries for each person.
 				</p>
 				<b>Demo:</b>{' '}
 				<a
@@ -387,7 +387,7 @@ const MyWork = () => {
 	};
 
 	return (
-		<div id='my-work' className='myWork-wrapper'>
+		<div id='myWork' className='myWork-wrapper'>
 			<div className='container'>
 				<h2 className='text-center py-5'>myWork</h2>
 				<div className='img-box-wrapper row justify-content-center'>
@@ -405,7 +405,6 @@ const MyWork = () => {
 							className='project-icon'
 							icon={faExpand}
 						/>
-						
 					</div>
 
 					<div
@@ -497,6 +496,7 @@ const MyWork = () => {
 						/>
 					</div>
 				</div>
+				
 			</div>
 			<PopupboxContainer {...popupboxConfigHolodex} />
 			<PopupboxContainer {...popupboxConfigEmpTracker} />
@@ -505,6 +505,7 @@ const MyWork = () => {
 			<PopupboxContainer {...popupboxConfigVirtualThemePark} />
 			<PopupboxContainer {...popupboxConfigWeatherApp} />
 			<PopupboxContainer {...popupboxConfigXP} />
+			<div className="containter m-5"></div>
 		</div>
 	);
 };

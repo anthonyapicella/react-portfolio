@@ -6,7 +6,8 @@ import Navbar from './components/Navbar.js';
 import Hero from './components/Hero';
 import AboutMe from './components/AboutMe';
 import MyWork from './components/MyWork';
-// import Contact from './components/Contact'
+
+import Footer from './components/Footer';
 
 function App() {
 	return (
@@ -15,7 +16,7 @@ function App() {
 			<Hero />
 			<AboutMe />
 			<MyWork />
-			{/* <Contact /> */}
+			<Footer />
 		</>
 	);
 }

@@ -24,14 +24,17 @@ h2 {
 }
 
 h3 {
+	color: var(--tertiary);
 	filter: drop-shadow(3px 2px 3px #121212);
 }
 
 h4 {
+	color: var(--tertiary);
 	filter: drop-shadow(3px 2px 3px #000000);
 }
 
 p {
+	color: var(--tertiary);
 	font-size: 1.25rem;
 	font-weight: 100;
 	filter: drop-shadow(2px 2px 4px #121212);
@@ -43,6 +46,10 @@ b {
 }
 span{
 	filter: drop-shadow(3px 2px 3px #000000);
+}
+
+.icon {
+	color: var(--tertiary);
 }
 
 /* NAVBAR STYLES */
@@ -127,7 +134,7 @@ a.nav-link:focus {
 .typed-text {
 	font-size: 2rem;
 	color: var(--tertiary) !important;
-	filter: drop-shadow(3px 2px 3px #000000);
+	filter: drop-shadow(3px 2px 3px #343333);
 }
 
 /* hero button ***************/
@@ -274,6 +281,10 @@ a.nav-link:focus {
 
 .hyper-link:hover {
 	color: var(--light);
+}
+
+.resume {
+	color: var(--tertiary);
 }
 
 /********** MEDIA Q ********/
