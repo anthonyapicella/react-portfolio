@@ -21,12 +21,6 @@ const Hero = () => {
 						backSpeed={80}
 						loop
 					/>
-					{/* <p>
-                    I used to be a bartender pretending to be an actor. Now I'm acting like a web developer. 
-					</p> */}
-					{/* <a href='#' className='btn-main-offer mt-4 rounded-pill'>
-						FRONT END SKILLS
-					</a> */}
 				</div>
 			</div>
 		</div>
