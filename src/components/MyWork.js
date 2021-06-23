@@ -26,17 +26,12 @@ const MyWork = () => {
 					src={vvs}
 					alt='The Versatile Voice Studio'
 				/>
-				<p>
-					Voice Lessons for all ages!
-				</p>
+				<p>Voice Lessons for all ages!</p>
 				<b>Demo:</b>{' '}
 				<a
 					className='hyper-link'
 					onClick={() =>
-						window.open(
-							'https://theversatilevoicestudio.com/',
-							'_blank'
-						)
+						window.open('https://theversatilevoicestudio.com/', '_blank')
 					}
 				>
 					The Versatile Voice Studio
@@ -55,7 +50,6 @@ const MyWork = () => {
 		// fadeInSpeed: 500,
 	};
 
-
 	// HOLODEX ***********
 	const openPopupboxHolodex = () => {
 		const content = (
@@ -66,8 +60,8 @@ const MyWork = () => {
 					alt='Star Wars: Holodex'
 				/>
 				<p>
-					HOLODEX is a Star Wars wiki viewed through a virtual
-					handheld device styled in the theme of the universe.
+					HOLODEX is a Star Wars wiki viewed through a virtual handheld device
+					styled in the theme of the universe.
 				</p>
 				<b>Demo:</b>{' '}
 				<a
@@ -86,10 +80,7 @@ const MyWork = () => {
 				<a
 					className='hyper-link'
 					onClick={() =>
-						window.open(
-							'https://github.com/anthonyapicella/holomap',
-							'_blank'
-						)
+						window.open('https://github.com/anthonyapicella/holomap', '_blank')
 					}
 				>
 					https://github.com/anthonyapicella/holomap
@@ -118,9 +109,9 @@ const MyWork = () => {
 					alt='Employee Tracker'
 				/>
 				<p>
-					Employee Tracker is a command-line application that provides
-					a solution for managing a company's employees; using node,
-					inquirer, and MySQL.
+					Employee Tracker is a command-line application that provides a
+					solution for managing a company's employees; using node, inquirer, and
+					MySQL.
 				</p>
 				<b>Demo:</b>{' '}
 				<a
@@ -171,8 +162,8 @@ const MyWork = () => {
 					alt='E-Commerce Back-End'
 				/>
 				<p>
-					This E-Commerce project a working Express.js API to use
-					Sequelize to interact with a MySQL database.
+					This E-Commerce project a working Express.js API to use Sequelize to
+					interact with a MySQL database.
 				</p>
 				<b>Demo:</b>{' '}
 				<a
@@ -223,10 +214,10 @@ const MyWork = () => {
 					alt='Team Profile Generator'
 				/>
 				<p>
-					Team Profile Generator is a Node.js command-line application
-					that takes in information about employees on a software
-					engineering team, then generates an HTML webpage that
-					displays summaries for each person.
+					Team Profile Generator is a Node.js command-line application that
+					takes in information about employees on a software engineering team,
+					then generates an HTML webpage that displays summaries for each
+					person.
 				</p>
 				<b>Demo:</b>{' '}
 				<a
@@ -277,17 +268,14 @@ const MyWork = () => {
 					alt='Virtual Theme Park'
 				/>
 				<p>
-					A Virtual Theme Park for Disneyland fans to explore during
-					the pandemic.
+					A Virtual Theme Park for Disneyland fans to explore during the
+					pandemic.
 				</p>
 				<b>Demo:</b>{' '}
 				<a
 					className='hyper-link'
 					onClick={() =>
-						window.open(
-							'https://warm-shore-45541.herokuapp.com/',
-							'_blank'
-						)
+						window.open('https://warm-shore-45541.herokuapp.com/', '_blank')
 					}
 				>
 					https://warm-shore-45541.herokuapp.com/
@@ -329,9 +317,9 @@ const MyWork = () => {
 					alt='Task Manager React and Redux Project...'
 				/>
 				<p>
-					A responsive web application that provides the user with the
-					days weather at a chosen location in addition to that city's
-					five day forecast.
+					A responsive web application that provides the user with the days
+					weather at a chosen location in addition to that city's five day
+					forecast.
 				</p>
 				<b>Demo:</b>{' '}
 				<a
@@ -376,26 +364,18 @@ const MyWork = () => {
 	const openPopupboxXP = () => {
 		const content = (
 			<>
-				<img
-					className='project-image-popupbox'
-					src={XP}
-					alt='XPpedia'
-				/>
+				<img className='project-image-popupbox' src={XP} alt='XPpedia' />
 				<p>
-					XP pedia is a user friendly web application that calculates
-					how long it will take a user to complete a chosen video game
-					based upon the their lifestyle. We all have a growing
-					collection of unfinished video games due to busy our
-					schedules. We want to beat those games!
+					XP pedia is a user friendly web application that calculates how long
+					it will take a user to complete a chosen video game based upon the
+					their lifestyle. We all have a growing collection of unfinished video
+					games due to busy our schedules. We want to beat those games!
 				</p>
 				<b>Demo:</b>{' '}
 				<a
 					className='hyper-link'
 					onClick={() =>
-						window.open(
-							'https://anthonyapicella.github.io/XP-pedia/',
-							'_blank'
-						)
+						window.open('https://anthonyapicella.github.io/XP-pedia/', '_blank')
 					}
 				>
 					https://anthonyapicella.github.io/XP-pedia/
@@ -405,10 +385,7 @@ const MyWork = () => {
 				<a
 					className='hyper-link'
 					onClick={() =>
-						window.open(
-							'https://github.com/anthonyapicella/XP-pedia',
-							'_blank'
-						)
+						window.open('https://github.com/anthonyapicella/XP-pedia', '_blank')
 					}
 				>
 					https://github.com/anthonyapicella/XP-pedia
@@ -427,88 +404,58 @@ const MyWork = () => {
 	};
 
 	return (
-		<div id='myWork' className='myWork-wrapper'>
+		<div id='myWork' className='myWork-wrapper mb-5'>
 			<div className='container'>
-				<h2 className='text-center py-5'>myWork</h2>
+				<h2 className='text-center p-3'>myWork</h2>
 				<div className='img-box-wrapper row justify-content-center'>
-				<div
-						className='project-img-box'
-						onClick={openPopupboxVvs}
-					>
+					<div className='project-img-box' onClick={openPopupboxVvs}>
 						<img
 							className='project-image'
 							src={vvs}
 							alt='Versatile Voice Studio'
 						/>
 						<div className='overflow'></div>
-						<FontAwesomeIcon
-							className='project-icon'
-							icon={faExpand}
-						/>
+						<FontAwesomeIcon className='project-icon' icon={faExpand} />
 					</div>
-					
-					<div
-						className='project-img-box'
-						onClick={openPopupboxHolodex}
-					>
+
+					<div className='project-img-box' onClick={openPopupboxHolodex}>
 						<img
 							className='project-image'
 							src={holodex}
 							alt='Star Wars: Holodex'
 						/>
 						<div className='overflow'></div>
-						<FontAwesomeIcon
-							className='project-icon'
-							icon={faExpand}
-						/>
+						<FontAwesomeIcon className='project-icon' icon={faExpand} />
 					</div>
 
-					<div
-						className='project-img-box'
-						onClick={openPopupboxEmpTracker}
-					>
+					<div className='project-img-box' onClick={openPopupboxEmpTracker}>
 						<img
 							className='project-image'
 							src={empTrack}
 							alt='Employee Tracker'
 						/>
 						<div className='overflow'></div>
-						<FontAwesomeIcon
-							className='project-icon'
-							icon={faExpand}
-						/>
+						<FontAwesomeIcon className='project-icon' icon={faExpand} />
 					</div>
 
-					<div
-						className='project-img-box'
-						onClick={openPopupboxEcommerce}
-					>
+					<div className='project-img-box' onClick={openPopupboxEcommerce}>
 						<img
 							className='project-image'
 							src={eCommerce}
 							alt='E-Commerce: Back-end'
 						/>
 						<div className='overflow'></div>
-						<FontAwesomeIcon
-							className='project-icon'
-							icon={faExpand}
-						/>
+						<FontAwesomeIcon className='project-icon' icon={faExpand} />
 					</div>
 
-					<div
-						className='project-img-box'
-						onClick={openPopupboxTeamProfile}
-					>
+					<div className='project-img-box' onClick={openPopupboxTeamProfile}>
 						<img
 							className='project-image'
 							src={teamProfile}
 							alt='Team Profile Generator'
 						/>
 						<div className='overflow'></div>
-						<FontAwesomeIcon
-							className='project-icon'
-							icon={faExpand}
-						/>
+						<FontAwesomeIcon className='project-icon' icon={faExpand} />
 					</div>
 
 					<div
@@ -521,38 +468,21 @@ const MyWork = () => {
 							alt='Virtual Theme Park'
 						/>
 						<div className='overflow'></div>
-						<FontAwesomeIcon
-							className='project-icon'
-							icon={faExpand}
-						/>
+						<FontAwesomeIcon className='project-icon' icon={faExpand} />
 					</div>
 
-					<div
-						className='project-img-box'
-						onClick={openPopupboxWeatherApp}
-					>
-						<img
-							className='project-image'
-							src={weather}
-							alt='Weather App'
-						/>
+					<div className='project-img-box' onClick={openPopupboxWeatherApp}>
+						<img className='project-image' src={weather} alt='Weather App' />
 						<div className='overflow'></div>
-						<FontAwesomeIcon
-							className='project-icon'
-							icon={faExpand}
-						/>
+						<FontAwesomeIcon className='project-icon' icon={faExpand} />
 					</div>
 
 					<div className='project-img-box' onClick={openPopupboxXP}>
 						<img className='project-image' src={XP} alt='XPpedia' />
 						<div className='overflow'></div>
-						<FontAwesomeIcon
-							className='project-icon'
-							icon={faExpand}
-						/>
+						<FontAwesomeIcon className='project-icon' icon={faExpand} />
 					</div>
 				</div>
-				
 			</div>
 			<PopupboxContainer {...popupboxConfigVvs} />
 			<PopupboxContainer {...popupboxConfigHolodex} />
@@ -562,7 +492,7 @@ const MyWork = () => {
 			<PopupboxContainer {...popupboxConfigVirtualThemePark} />
 			<PopupboxContainer {...popupboxConfigWeatherApp} />
 			<PopupboxContainer {...popupboxConfigXP} />
-			<div className="containter m-5"></div>
+			<div className='containter m-5'></div>
 		</div>
 	);
 };

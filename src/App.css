@@ -44,8 +44,17 @@ b {
 	color: var(--tertiary);
 	filter: drop-shadow(3px 2px 3px #000000);
 }
-span{
+span {
 	filter: drop-shadow(3px 2px 3px #000000);
+}
+
+.brand {
+	/* font-family: 'Antonio', sans-serif; */
+	font-family: marydale, sans-serif;
+	font-size: x-large;
+	font-weight: 400;
+	font-style: normal;
+	filter: drop-shadow(3px 2px 3px #121212);
 }
 
 .icon {
@@ -62,8 +71,10 @@ span{
 
 .navbar-brand {
 	/* font-family: 'Antonio', sans-serif; */
-	font-weight: 200;
-	font-size: 1.75rem;
+	font-family: marydale, sans-serif;
+	font-size: xx-large;
+	font-weight: 700;
+	font-style: normal;
 	filter: drop-shadow(3px 2px 3px #121212);
 }
 
@@ -103,18 +114,18 @@ a.nav-link:focus {
 			rgba(58, 65, 70, 0.133),
 			rgba(46, 46, 75, 0.332)
 		),
-		url(../src/assets/img/codeBackgroung.jpeg);
+		url(../src/assets/img/codeBackground.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
 }
 
-.blur {
+/* .blur {
 	background: #5888a64e;
 	backdrop-filter: blur(2.5px);
 	height: 100vh;
 	width: 100%;
-}
+} */
 
 .heading {
 	display: flex;
@@ -262,12 +273,12 @@ a.nav-link:focus {
 }
 
 .popupbox-overlay {
-	background: rgba(0, 0, 0, 0.215) !important
+	background: rgba(0, 0, 0, 0.215) !important;
 }
 
 .popupbox-titleBar {
 	background-color: var(--primary);
-	margin-top: 0rem
+	margin-top: 0rem;
 }
 
 .popupbox-content {
@@ -285,6 +296,19 @@ a.nav-link:focus {
 
 .resume {
 	color: var(--tertiary);
+}
+
+.copyright {
+	/* font-family: marydale, sans-serif;
+	font-weight: 400;
+	font-style: normal; */
+	font-weight: 200;
+	
+}
+
+.footer-dark-bottom {
+	background-color: var(--primary) !important;
+	z-index: 999;
 }
 
 /********** MEDIA Q ********/
