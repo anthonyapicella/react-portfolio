@@ -7,7 +7,7 @@ const Navbar = () => {
 		<nav className='navbar navbar-expand-lg navbar-dark bg-dark pl-5 pr-5 pb-2 justify-content-between sticky-top'>
 			{/* <div className='container'> */}
 			<a className='navbar-brand pl-1' href='#'>
-				anthony<span className='camel-A'>A</span>picella
+				anthony<span className='camel-A'>A</span>pps.com
 			</a>
 			<button
 				className='navbar-toggler'
