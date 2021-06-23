@@ -134,7 +134,7 @@ a.nav-link:focus {
 .typed-text {
 	font-size: 2rem;
 	color: var(--tertiary) !important;
-	filter: drop-shadow(3px 2px 3px #343333);
+	filter: drop-shadow(3px 2px 3px #464545);
 }
 
 /* hero button ***************/

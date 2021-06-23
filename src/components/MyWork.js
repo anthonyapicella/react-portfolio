@@ -8,6 +8,7 @@ import teamProfile from '../assets/img/TPG1.png';
 import virtualPark from '../assets/img/VTPscreen.png';
 import weather from '../assets/img/Weather.gif';
 import XP from '../assets/img/XPpedia.gif';
+import vvs from '../assets/img/share-img.jpg';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExpand } from '@fortawesome/free-solid-svg-icons';
@@ -16,6 +17,45 @@ import { PopupboxManager, PopupboxContainer } from 'react-popupbox';
 import 'react-popupbox/dist/react-popupbox.css';
 
 const MyWork = () => {
+	// VVS *************
+	const openPopupboxVvs = () => {
+		const content = (
+			<>
+				<img
+					className='project-image-popupbox'
+					src={vvs}
+					alt='The Versatile Voice Studio'
+				/>
+				<p>
+					Voice Lessons for all ages!
+				</p>
+				<b>Demo:</b>{' '}
+				<a
+					className='hyper-link'
+					onClick={() =>
+						window.open(
+							'https://theversatilevoicestudio.com/',
+							'_blank'
+						)
+					}
+				>
+					The Versatile Voice Studio
+				</a>
+			</>
+		);
+		PopupboxManager.open({ content });
+	};
+
+	const popupboxConfigVvs = {
+		titleBar: {
+			enable: true,
+			text: 'Voice Teacher Website',
+		},
+		// fadeIn: true,
+		// fadeInSpeed: 500,
+	};
+
+
 	// HOLODEX ***********
 	const openPopupboxHolodex = () => {
 		const content = (
@@ -391,6 +431,22 @@ const MyWork = () => {
 			<div className='container'>
 				<h2 className='text-center py-5'>myWork</h2>
 				<div className='img-box-wrapper row justify-content-center'>
+				<div
+						className='project-img-box'
+						onClick={openPopupboxVvs}
+					>
+						<img
+							className='project-image'
+							src={vvs}
+							alt='Versatile Voice Studio'
+						/>
+						<div className='overflow'></div>
+						<FontAwesomeIcon
+							className='project-icon'
+							icon={faExpand}
+						/>
+					</div>
+					
 					<div
 						className='project-img-box'
 						onClick={openPopupboxHolodex}
@@ -498,6 +554,7 @@ const MyWork = () => {
 				</div>
 				
 			</div>
+			<PopupboxContainer {...popupboxConfigVvs} />
 			<PopupboxContainer {...popupboxConfigHolodex} />
 			<PopupboxContainer {...popupboxConfigEmpTracker} />
 			<PopupboxContainer {...popupboxConfigEcommerce} />
