@@ -1,0 +1,14 @@
+.move-up {
+	position: fixed;
+	margin-right: 50px;
+	cursor: pointer;
+	bottom: 80px;
+	right: 0;
+	z-index: 1;
+	text-align: center;
+	height: 45px;
+	line-height: 46px;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	filter: drop-shadow(2px 1px 15px #55555563);
+}

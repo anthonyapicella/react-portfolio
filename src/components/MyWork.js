@@ -51,53 +51,53 @@ const MyWork = () => {
 	};
 
 	// HOLODEX ***********
-	const openPopupboxHolodex = () => {
-		const content = (
-			<>
-				<img
-					className='project-image-popupbox'
-					src={holodex}
-					alt='Star Wars: Holodex'
-				/>
-				<p>
-					HOLODEX is a Star Wars wiki viewed through a virtual handheld device
-					styled in the theme of the universe.
-				</p>
-				<b>Demo:</b>{' '}
-				<a
-					className='hyper-link'
-					onClick={() =>
-						window.open(
-							'https://shielded-savannah-30598.herokuapp.com/',
-							'_blank'
-						)
-					}
-				>
-					Star Wars: Holodex
-				</a>
-				<br />
-				<b>GitHub:</b>{' '}
-				<a
-					className='hyper-link'
-					onClick={() =>
-						window.open('https://github.com/anthonyapicella/holomap', '_blank')
-					}
-				>
-					https://github.com/anthonyapicella/holomap
-				</a>
-			</>
-		);
-		PopupboxManager.open({ content });
-	};
+	// const openPopupboxHolodex = () => {
+	// 	const content = (
+	// 		<>
+	// 			<img
+	// 				className='project-image-popupbox'
+	// 				src={holodex}
+	// 				alt='Star Wars: Holodex'
+	// 			/>
+	// 			<p>
+	// 				HOLODEX is a Star Wars wiki viewed through a virtual handheld device
+	// 				styled in the theme of the universe.
+	// 			</p>
+	// 			<b>Demo:</b>{' '}
+	// 			<a
+	// 				className='hyper-link'
+	// 				onClick={() =>
+	// 					window.open(
+	// 						'https://shielded-savannah-30598.herokuapp.com/',
+	// 						'_blank'
+	// 					)
+	// 				}
+	// 			>
+	// 				Star Wars: Holodex
+	// 			</a>
+	// 			<br />
+	// 			<b>GitHub:</b>{' '}
+	// 			<a
+	// 				className='hyper-link'
+	// 				onClick={() =>
+	// 					window.open('https://github.com/anthonyapicella/holomap', '_blank')
+	// 				}
+	// 			>
+	// 				https://github.com/anthonyapicella/holomap
+	// 			</a>
+	// 		</>
+	// 	);
+	// 	PopupboxManager.open({ content });
+	// };
 
-	const popupboxConfigHolodex = {
-		titleBar: {
-			enable: true,
-			text: 'Interactive Star Wars Database',
-		},
-		// fadeIn: true,
-		// fadeInSpeed: 500,
-	};
+	// const popupboxConfigHolodex = {
+	// 	titleBar: {
+	// 		enable: true,
+	// 		text: 'Interactive Star Wars Database',
+	// },
+	// fadeIn: true,
+	// fadeInSpeed: 500,
+	// };
 
 	// EMPLOYEE TRACKER ***********
 	const openPopupboxEmpTracker = () => {
@@ -259,53 +259,53 @@ const MyWork = () => {
 	};
 
 	// Virtual Theme Park ***********
-	const openPopupboxVirtualThemePark = () => {
-		const content = (
-			<>
-				<img
-					className='project-image-popupbox'
-					src={virtualPark}
-					alt='Virtual Theme Park'
-				/>
-				<p>
-					A Virtual Theme Park for Disneyland fans to explore during the
-					pandemic.
-				</p>
-				<b>Demo:</b>{' '}
-				<a
-					className='hyper-link'
-					onClick={() =>
-						window.open('https://warm-shore-45541.herokuapp.com/', '_blank')
-					}
-				>
-					https://warm-shore-45541.herokuapp.com/
-				</a>
-				<br />
-				<b>GitHub:</b>{' '}
-				<a
-					className='hyper-link'
-					onClick={() =>
-						window.open(
-							'https://github.com/anthonyapicella/virtual-theme-park',
-							'_blank'
-						)
-					}
-				>
-					https://github.com/anthonyapicella/virtual-theme-park
-				</a>
-			</>
-		);
-		PopupboxManager.open({ content });
-	};
+	// const openPopupboxVirtualThemePark = () => {
+	// 	const content = (
+	// 		<>
+	// 			<img
+	// 				className='project-image-popupbox'
+	// 				src={virtualPark}
+	// 				alt='Virtual Theme Park'
+	// 			/>
+	// 			<p>
+	// 				A Virtual Theme Park for Disneyland fans to explore during the
+	// 				pandemic.
+	// 			</p>
+	// 			<b>Demo:</b>{' '}
+	// 			<a
+	// 				className='hyper-link'
+	// 				onClick={() =>
+	// 					window.open('https://warm-shore-45541.herokuapp.com/', '_blank')
+	// 				}
+	// 			>
+	// 				https://warm-shore-45541.herokuapp.com/
+	// 			</a>
+	// 			<br />
+	// 			<b>GitHub:</b>{' '}
+	// 			<a
+	// 				className='hyper-link'
+	// 				onClick={() =>
+	// 					window.open(
+	// 						'https://github.com/anthonyapicella/virtual-theme-park',
+	// 						'_blank'
+	// 					)
+	// 				}
+	// 			>
+	// 				https://github.com/anthonyapicella/virtual-theme-park
+	// 			</a>
+	// 		</>
+	// 	);
+	// 	PopupboxManager.open({ content });
+	// };
 
-	const popupboxConfigVirtualThemePark = {
-		titleBar: {
-			enable: true,
-			text: 'Virtual Theme Park',
-		},
-		// fadeIn: true,
-		// fadeInSpeed: 500,
-	};
+	// const popupboxConfigVirtualThemePark = {
+	// 	titleBar: {
+	// 		enable: true,
+	// 		text: 'Virtual Theme Park',
+	// 	},
+	// fadeIn: true,
+	// fadeInSpeed: 500,
+	// };
 
 	// Weather App***********
 	const openPopupboxWeatherApp = () => {
@@ -407,18 +407,20 @@ const MyWork = () => {
 		<div id='myWork' className='myWork-wrapper mb-5'>
 			<div className='container'>
 				<h2 className='text-center p-3'>myWork</h2>
-				<div className='img-box-wrapper row justify-content-center'>
-					<div className='project-img-box' onClick={openPopupboxVvs}>
-						<img
-							className='project-image'
-							src={vvs}
-							alt='Versatile Voice Studio'
-						/>
-						<div className='overflow'></div>
-						<FontAwesomeIcon className='project-icon' icon={faExpand} />
+				<div className='row justify-content-center'>
+					<div className='col-lg-4 col-md-6 col-sm-12'>
+						<div className='project-img-box' onClick={openPopupboxVvs}>
+							<img
+								className='project-image'
+								src={vvs}
+								alt='Versatile Voice Studio'
+							/>
+							<div className='overflow'></div>
+							<FontAwesomeIcon className='project-icon' icon={faExpand} />
+						</div>
 					</div>
 
-					<div className='project-img-box' onClick={openPopupboxHolodex}>
+					{/* <div className='project-img-box' onClick={openPopupboxHolodex}>
 						<img
 							className='project-image'
 							src={holodex}
@@ -426,39 +428,42 @@ const MyWork = () => {
 						/>
 						<div className='overflow'></div>
 						<FontAwesomeIcon className='project-icon' icon={faExpand} />
+					</div> */}
+					<div className='col-lg-4 col-md-6 col-sm-12'>
+						<div className='project-img-box' onClick={openPopupboxEmpTracker}>
+							<img
+								className='project-image'
+								src={empTrack}
+								alt='Employee Tracker'
+							/>
+							<div className='overflow'></div>
+							<FontAwesomeIcon className='project-icon' icon={faExpand} />
+						</div>
+					</div>
+					<div className='col-lg-4 col-md-6 col-sm-12'>
+						<div className='project-img-box' onClick={openPopupboxEcommerce}>
+							<img
+								className='project-image'
+								src={eCommerce}
+								alt='E-Commerce: Back-end'
+							/>
+							<div className='overflow'></div>
+							<FontAwesomeIcon className='project-icon' icon={faExpand} />
+						</div>
+					</div>
+					<div className='col-lg-4 col-md-6 col-sm-12'>
+						<div className='project-img-box' onClick={openPopupboxTeamProfile}>
+							<img
+								className='project-image'
+								src={teamProfile}
+								alt='Team Profile Generator'
+							/>
+							<div className='overflow'></div>
+							<FontAwesomeIcon className='project-icon' icon={faExpand} />
+						</div>
 					</div>
 
-					<div className='project-img-box' onClick={openPopupboxEmpTracker}>
-						<img
-							className='project-image'
-							src={empTrack}
-							alt='Employee Tracker'
-						/>
-						<div className='overflow'></div>
-						<FontAwesomeIcon className='project-icon' icon={faExpand} />
-					</div>
-
-					<div className='project-img-box' onClick={openPopupboxEcommerce}>
-						<img
-							className='project-image'
-							src={eCommerce}
-							alt='E-Commerce: Back-end'
-						/>
-						<div className='overflow'></div>
-						<FontAwesomeIcon className='project-icon' icon={faExpand} />
-					</div>
-
-					<div className='project-img-box' onClick={openPopupboxTeamProfile}>
-						<img
-							className='project-image'
-							src={teamProfile}
-							alt='Team Profile Generator'
-						/>
-						<div className='overflow'></div>
-						<FontAwesomeIcon className='project-icon' icon={faExpand} />
-					</div>
-
-					<div
+					{/* <div
 						className='project-img-box'
 						onClick={openPopupboxVirtualThemePark}
 					>
@@ -469,27 +474,29 @@ const MyWork = () => {
 						/>
 						<div className='overflow'></div>
 						<FontAwesomeIcon className='project-icon' icon={faExpand} />
+					</div> */}
+					<div className='col-lg-4 col-md-6 col-sm-12'>
+						<div className='project-img-box' onClick={openPopupboxWeatherApp}>
+							<img className='project-image' src={weather} alt='Weather App' />
+							<div className='overflow'></div>
+							<FontAwesomeIcon className='project-icon' icon={faExpand} />
+						</div>
 					</div>
-
-					<div className='project-img-box' onClick={openPopupboxWeatherApp}>
-						<img className='project-image' src={weather} alt='Weather App' />
-						<div className='overflow'></div>
-						<FontAwesomeIcon className='project-icon' icon={faExpand} />
-					</div>
-
-					<div className='project-img-box' onClick={openPopupboxXP}>
-						<img className='project-image' src={XP} alt='XPpedia' />
-						<div className='overflow'></div>
-						<FontAwesomeIcon className='project-icon' icon={faExpand} />
+					<div className='col-lg-4 col-md-6 col-sm-12'>
+						<div className='project-img-box' onClick={openPopupboxXP}>
+							<img className='project-image' src={XP} alt='XPpedia' />
+							<div className='overflow'></div>
+							<FontAwesomeIcon className='project-icon' icon={faExpand} />
+						</div>
 					</div>
 				</div>
 			</div>
 			<PopupboxContainer {...popupboxConfigVvs} />
-			<PopupboxContainer {...popupboxConfigHolodex} />
+			{/* <PopupboxContainer {...popupboxConfigHolodex} /> */}
 			<PopupboxContainer {...popupboxConfigEmpTracker} />
 			<PopupboxContainer {...popupboxConfigEcommerce} />
 			<PopupboxContainer {...popupboxConfigTeamProfile} />
-			<PopupboxContainer {...popupboxConfigVirtualThemePark} />
+			{/* <PopupboxContainer {...popupboxConfigVirtualThemePark} /> */}
 			<PopupboxContainer {...popupboxConfigWeatherApp} />
 			<PopupboxContainer {...popupboxConfigXP} />
 			<div className='containter m-5'></div>

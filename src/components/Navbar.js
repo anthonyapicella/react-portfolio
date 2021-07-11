@@ -1,50 +1,100 @@
 import React from 'react';
 // font awesome
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const Navbar = () => {
+import {
+	Navbar,
+	Nav,
+	Form,
+	FormControl,
+	Button,
+	NavDropdown,
+	NavItem,
+} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+
+const NavTop = () => {
 	return (
-		<nav className='navbar navbar-expand-lg navbar-dark bg-dark pl-5 pr-5 pb-2 justify-content-between sticky-top'>
-			<div className='container p-3'>
-				<a className='navbar-brand pl-1' href='#'>
-					anthonyApps.com
-				</a>
-				<button
-					className='navbar-toggler'
-					type='button'
-					data-toggle='collapse'
-					data-target='#navbarNav'
-					aria-controls='navbarNav'
-					aria-expanded='false'
-					aria-label='Toggle navigation'
-				>
-					<span className='navbar-toggler-icon'></span>
-				</button>
-				<div
-					className='collapse navbar-collapse justify-content-end'
-					id='navbarNav'
-				>
-					<ul className='navbar-nav'>
-						<li className='nav-item active'>
-							<a className='nav-link' href='#'>
-								Home <span className='sr-only'>(current)</span>
-							</a>
-						</li>
-						<li className='nav-item'>
-							<a className='nav-link' href='#aboutMe'>
-								About Me
-							</a>
-						</li>
-						<li className='nav-item'>
-							<a className='nav-link' href='#myWork'>
-								My Work
-							</a>
-						</li>
-					</ul>
+		<Navbar
+			className='shadow'
+			id='navbarTop'
+			sticky='top'
+			collapseOnSelect
+			expand='sm'
+			bg='dark'
+			variant='dark'
+		>
+			<div className='container'>
+				<Navbar.Brand href='/' className='brand'>
+					anthonyApps
+				</Navbar.Brand>
+				<Navbar.Toggle aria-controls='basic-navbar-nav' />
+				<Navbar.Collapse id='basic-navbar-nav'>
+					<Nav className='mx-auto'>
+						<Nav.Link eventKey='1' as={Link} to='/'>
+							Home
+						</Nav.Link>
+						<Nav.Link eventKey='2' as={Link} to='/about'>
+							About
+						</Nav.Link>
+						<Nav.Link eventKey='2' as={Link} to='/projects'>
+							Projects
+						</Nav.Link>
+						<Nav.Link eventKey='2' as={Link} to='/resumepage'>
+							Resume
+						</Nav.Link>
+						<Nav.Link eventKey='2' as={Link} to='/contact'>
+							Contact
+						</Nav.Link>
+						
+						<div className='row mx-auto d-block d-sm-none'>
+							<div className='row'>
+								<Nav.Link className='col-4 p-3'>
+									<i
+										className='bi bi-envelope-fill h4'
+										style={{ color: 'var(--tertiary)' }}
+									></i>
+								</Nav.Link>
+								<Nav.Link className='col-4 p-3'>
+									<i
+										className='bi bi-github h4'
+										style={{ color: 'var(--tertiary)' }}
+									></i>
+								</Nav.Link>
+								<Nav.Link className='col-4 p-3'>
+									<i
+										className='bi bi-linkedin h4'
+										style={{ color: 'var(--tertiary)' }}
+									></i>
+								</Nav.Link>
+							</div>
+						</div>
+					</Nav>
+				</Navbar.Collapse>
+				<div className='row d-none d-sm-block'>
+					<div className='row'>
+						<Nav.Link className='col-4 p-3'>
+							<i
+								className='bi bi-envelope-fill h4'
+								style={{ color: 'var(--tertiary)' }}
+							></i>
+						</Nav.Link>
+						<Nav.Link className='col-4 p-3'>
+							<i
+								className='bi bi-github h4'
+								style={{ color: 'var(--tertiary)' }}
+							></i>
+						</Nav.Link>
+						<Nav.Link className='col-4 p-3'>
+							<i
+								className='bi bi-linkedin h4'
+								style={{ color: 'var(--tertiary)' }}
+							></i>
+						</Nav.Link>
+					</div>
 				</div>
 			</div>
-		</nav>
+		</Navbar>
 	);
 };
 
-export default Navbar;
+export default NavTop;

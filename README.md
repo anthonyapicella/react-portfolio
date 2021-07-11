@@ -4,7 +4,7 @@
   <p align="center">
     Built with React.js
     <br />
-    <a href="https://anthonyapicella.com"><strong>anthonyapicella.com »</strong></a>
+    <a href="https://anthonyapps.com"><strong>anthonyapps.com »</strong></a>
     <br />
     <br />
     <a href="https://github.com/anthonyapicella/react-portfolio">The Repo</a>
@@ -47,7 +47,7 @@ This site is designed to showcase my work as a developer.
 
 >[Repo Link](https://github.com/anthonyapicella/react-portfolio) 
 
->[Deployed Site](https://anthonyapicella.com)
+>[Deployed Site](https://anthonyapps.com)
 
 ### Built With
 
@@ -83,7 +83,7 @@ To get a local copy up and running follow these simple steps.
 
 ## Contact
 
-Anthony Apicella - anthony.apicella@me.com
+Anthony Apicella - anthony@anthonyapps.com
 
 [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anthony-apicella-a021301ba/)
 
