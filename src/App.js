@@ -16,6 +16,13 @@ import Footer from './components/Footer';
 
 import ScrollToTop from './components/ScrollUp/ScrollToTop';
 import ScrollToButton from './components/ScrollUp/ScrollToButton';
+import VvsProjectCard from './components/ProjectCards/VvsProjectCard';
+import EmpTrackProjectCard from './components/ProjectCards/EmpTrackProjectCard';
+import WeatherProjectCard from './components/ProjectCards/WeatherProjectCard';
+import EcommerceProjectCard from './components/ProjectCards/EcommerceProjectCard';
+import TeamProProjectCard from './components/ProjectCards/TeamProProjectCard';
+import XpProjectCard from './components/ProjectCards/XpProjectCard';
+
 
 function App() {
 	return (
@@ -29,6 +36,12 @@ function App() {
 				<Route path='/projects' exact component={Projects} />
 				<Route path='/resumepage' exact component={ResumePage} />
 				<Route path='/contact' exact component={Contact} />
+				<Route path='/versatile-voice-studio' exact component={VvsProjectCard} />
+				<Route path='/employee-tracker' exact component={EmpTrackProjectCard} />
+				<Route path='/weather' exact component={WeatherProjectCard} />
+				<Route path='/e-commerce' exact component={EcommerceProjectCard} />
+				<Route path='/team-profile-generator' exact component={TeamProProjectCard} />
+				<Route path='/xp' exact component={XpProjectCard} />
 			</Switch>
 			<Footer />
 		</Router>

@@ -3,7 +3,7 @@ import headshot from '../assets/img/ApicellaHeadshot2.png';
 import Skills from './Skills';
 import Fade from 'react-reveal/Fade';
 import firstComputer from '../../src/assets/img/aFirstComputer.png';
-import ProjectCard from './ProjectCard';
+
 
 class AboutMe extends React.Component {
 	constructor(props) {
@@ -54,7 +54,7 @@ class AboutMe extends React.Component {
 									and saw many incredible places. I've performed for audiences
 									of 18 to 18,000 and loved every second - but my real passion
 									is PROBLEM SOLVING. It's what makes me a great developer. I
-									have a thirst for knowledge and a love of all things tech!
+									have always had a thirst for knowledge and a love of all things tech!
 								</p>
 							</div>
 						</Fade>
@@ -72,7 +72,6 @@ class AboutMe extends React.Component {
 				<div className=''>
 					<Skills />
 				</div>
-				<ProjectCard></ProjectCard>
 			</div>
 		);
 	}

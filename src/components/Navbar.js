@@ -46,28 +46,7 @@ const NavTop = () => {
 							Contact
 						</Nav.Link>
 						
-						<div className='row mx-auto d-block d-sm-none'>
-							<div className='row'>
-								<Nav.Link className='col-4 p-3'>
-									<i
-										className='bi bi-envelope-fill h4'
-										style={{ color: 'var(--tertiary)' }}
-									></i>
-								</Nav.Link>
-								<Nav.Link className='col-4 p-3'>
-									<i
-										className='bi bi-github h4'
-										style={{ color: 'var(--tertiary)' }}
-									></i>
-								</Nav.Link>
-								<Nav.Link className='col-4 p-3'>
-									<i
-										className='bi bi-linkedin h4'
-										style={{ color: 'var(--tertiary)' }}
-									></i>
-								</Nav.Link>
-							</div>
-						</div>
+						
 					</Nav>
 				</Navbar.Collapse>
 				<div className='row d-none d-sm-block'>

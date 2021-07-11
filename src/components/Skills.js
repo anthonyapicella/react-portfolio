@@ -29,7 +29,7 @@ class Skills extends React.Component {
 		return (
 			<div id='skills' className='skills'>
 				<div className=''>
-					<Zoom top cascade collapse when={this.state.display}>
+					<Zoom left cascade collapse when={this.state.display}>
 						<div className='row'>
 							<div className='col-lg-3 col-md-6 col-sm-6'>
 								<div className='box shadow rounded'>

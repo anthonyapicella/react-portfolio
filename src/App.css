@@ -1,4 +1,4 @@
- :root {
+:root {
 	--primary: #083359;
 	--secondary: #024873;
 	--tertiary: rgb(212, 212, 212);
@@ -227,7 +227,6 @@ a.nav-link:focus {
 .skills .skill-text {
 	color: var(--light);
 	filter: drop-shadow(2px 1.5px 2px #292929);
-
 }
 
 .skills .box {
@@ -240,7 +239,7 @@ a.nav-link:focus {
 }
 
 .skills .box:hover {
-	background:var(--light);
+	background: var(--light);
 }
 
 .skills .box:hover .icon {
@@ -258,16 +257,14 @@ a.nav-link:focus {
 .skills .box:hover .skill-text {
 	color: var(--dark);
 	filter: drop-shadow(2px 1.5px 2px #292929);
-
 }
-
 
 /* ********MY WORK********** */
 
 .myWork-wrapper {
 	/* background-color: var(--light); */
 	padding: 3rem 0;
-} 
+}
 
 .project-image {
 	width: 15rem;
@@ -350,12 +347,11 @@ a.nav-link:focus {
 
 .copyright {
 	font-weight: 200;
-	
 }
 
 .footer-dark-bottom {
 	background-color: var(--primary) !important;
-	z-index: ;
+
 }
 
 /* SCROLLtoTOP */
@@ -372,6 +368,7 @@ a.nav-link:focus {
 	-webkit-transition: 0.5s;
 	transition: 0.5s;
 } */
+
 
 /********** MEDIA Q ********/
 
