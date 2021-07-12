@@ -1,19 +1,28 @@
 import React from 'react';
 import Resume from './Resume';
+
+import Rez from ''
+
 const ResumePage = () => {
 	return (
-		<div className='container'>
-			<h4 className='text-center'>
-				Resume <Resume />
-			</h4>
-			<div className='row'>
-				<div className='mx-auto'>
-					<button onClick={'https://my.setmore.com/bookingpage/6cc6573c-7564-47ca-a3fe-bbc4e7ab371d'}>Book</button>
-					
-				</div>
-			</div>
+		<div className='p-2'>
+			<Card
+				className='m-2 border-0 shadow col-sm-12 col-md-10 col-lg-8 col-xl-7 mx-auto'
+				style={{ backgroundColor: 'var(--light)' }}
+				border='dark'
+			>
+				<Card.Body className='justify-content-center'>
+					<Card.Title>
+						<h4 className='text-center'>E-Commerce Back-end</h4>
+					</Card.Title>
+					<div className='mx-auto text-center p-2 mx-auto my-2 bg-dark'>
+
+					</div>
+				</Card.Body>
+			</Card>
 		</div>
 	);
 };
+
 
 export default ResumePage;

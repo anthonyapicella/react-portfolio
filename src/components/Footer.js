@@ -32,9 +32,9 @@ const Footer = () => {
 						<Nav.Link className='mx-auto' eventKey='2' as={Link} to='/about'>
 							About
 						</Nav.Link>
-						<Nav.Link className='mx-auto' eventKey='2' as={Link} to='/projects'>
+						<Navnpm className='mx-auto' eventKey='2' as={Link} to='/projects'>
 							Projects
-						</Nav.Link>
+						</Navnpm .Link>
 						{/* <Nav.Link
 							className='mx-auto'
 							eventKey='2'
