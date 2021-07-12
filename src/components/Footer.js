@@ -1,4 +1,6 @@
 import React from 'react';
+// font awesome
+
 import {
 	Navbar,
 	Nav,
@@ -12,60 +14,93 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
 	return (
-		<div className='footer border-top sticky-bottom'>
-			<div className='container p-3'>
-				<div className='col-lg-4 col-md-4 col-sm-6 col-12 order-md-2 order-xs-1'>
-					<div className='row'>
-						<Nav className='mx-auto'>
-							<Nav.Link eventKey='1' as={Link} to='/'>
-								Home
-							</Nav.Link>
-							<Nav.Link eventKey='2' as={Link} to='/about'>
-								About
-							</Nav.Link>
-							<Nav.Link eventKey='2' as={Link} to='/projects'>
-								Projects
-							</Nav.Link>
-							<Nav.Link eventKey='2' as={Link} to='/resumepage'>
-								Resume
-							</Nav.Link>
-							<Nav.Link eventKey='2' as={Link} to='/contact'>
-								Contact
-							</Nav.Link>
-						</Nav>
-					</div>
-				</div>
-				<div className='col-lg-4 col-md-4 col-sm-12 col-12 align-items-center order-last'>
-					<div className='row mx-auto d-block d-sm-none'>
-						<div className='row'>
-							<Nav.Link className='col-4 p-3'>
-								<i
-									className='bi bi-envelope-fill h4'
-									style={{ color: 'var(--tertiary)' }}
-								></i>
-							</Nav.Link>
-							<Nav.Link className='col-4 p-3'>
-								<i
-									className='bi bi-github h4'
-									style={{ color: 'var(--tertiary)' }}
-								></i>
-							</Nav.Link>
-							<Nav.Link className='col-4 p-3'>
-								<i
-									className='bi bi-linkedin h4'
-									style={{ color: 'var(--tertiary)' }}
-								></i>
-							</Nav.Link>
-						</div>
-					</div>
-					<p className='pt-3 text-center footer-nav'>
-						Copyright&copy;
-						{new Date().getFullYear()}&nbsp; anthonyApps Anthony Apicella | All
-						Rights Reserved
-					</p>
+		<Navbar
+			className='row mt-3 justify-content-around'
+			id='navbarTop'
+			sticky='bottom'
+			collapseOnSelect
+			expand='sm'
+			bg='transparent'
+			variant='light'
+		>
+			<div className='col-lg-4 col-md-4 col-sm-6 col-xs-12 '>
+				<div className='align-items-center'>
+					<Nav className='mx-auto text-center footer-nav'>
+						<Nav.Link className='mx-auto' eventKey='1' as={Link} to='/'>
+							Home
+						</Nav.Link>
+						<Nav.Link className='mx-auto' eventKey='2' as={Link} to='/about'>
+							About
+						</Nav.Link>
+						<Nav.Link className='mx-auto' eventKey='2' as={Link} to='/projects'>
+							Projects
+						</Nav.Link>
+						{/* <Nav.Link
+							className='mx-auto'
+							eventKey='2'
+							as={Link}
+							to='/resumepage'
+						>
+							Resume
+						</Nav.Link> */}
+						{/* <Nav.Link eventKey='2' as={Link} to='/contact'>
+						Contact
+					</Nav.Link> */}
+					</Nav>
 				</div>
 			</div>
-		</div>
+			<div className='col-lg-4 col-md-4 col-sm-12 col-xs-12 '>
+				<div className='mx-auto d-flex justify-content-center'>
+					<Nav.Item className=''>
+						<Nav.Link
+							className='col-4 p-3 text-center'
+							href='mailto:anthony@anthonyapps.com'
+						>
+							<i
+								className='bi bi-envelope-fill h4  secondary'
+								style={{ color: 'var(--secondary)' }}
+							></i>
+						</Nav.Link>
+					</Nav.Item>
+					<Nav.Item className=''>
+						<Nav.Link
+							className='col-4 p-3 text-center'
+							href='https://www.linkedin.com/in/anthonyapicella/'
+							target='_blank'
+						>
+							<i
+								className='bi bi-linkedin h4 secondary'
+								style={{ color: 'var(--secondary)' }}
+							></i>
+						</Nav.Link>
+					</Nav.Item>
+					<Nav.Item className=''>
+						<Nav.Link
+							className='col-4 p-3 text-center'
+							href='https://github.com/anthonyapicella'
+							target='_blank'
+						>
+							<i
+								className='bi bi-github h4 secondary'
+								style={{ color: 'var(--secondary)' }}
+							></i>
+						</Nav.Link>
+					</Nav.Item>
+				</div>
+			</div>
+			<div className='col-lg-4 col-md-4 col-sm-12 col-xs-12'>
+				<div>
+					<div
+						className='text-center p-3'
+						style={{ color: 'var(--secondary)' }}
+					>
+						Copyright&copy;
+						{new Date().getFullYear()}&nbsp; Anthony Apicella | All Rights
+						Reserved
+					</div>
+				</div>
+			</div>
+		</Navbar>
 	);
 };
 

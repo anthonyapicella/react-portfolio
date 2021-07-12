@@ -28,14 +28,14 @@ function App() {
 	return (
 		<Router>
 			<Navbar />
-			<ScrollToButton />
+			<ScrollToButton/>
 			<ScrollToTop />
 			<Switch>
 				<Route path='/' exact component={Hero} />
 				<Route path='/about' exact component={AboutMe} />
 				<Route path='/projects' exact component={Projects} />
 				<Route path='/resumepage' exact component={ResumePage} />
-				<Route path='/contact' exact component={Contact} />
+				{/* <Route path='/contact' exact component={Contact} /> */}
 				<Route path='/versatile-voice-studio' exact component={VvsProjectCard} />
 				<Route path='/employee-tracker' exact component={EmpTrackProjectCard} />
 				<Route path='/weather' exact component={WeatherProjectCard} />

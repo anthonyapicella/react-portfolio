@@ -39,31 +39,40 @@ const NavTop = () => {
 						<Nav.Link eventKey='2' as={Link} to='/projects'>
 							Projects
 						</Nav.Link>
-						<Nav.Link eventKey='2' as={Link} to='/resumepage'>
+						{/* <Nav.Link eventKey='2' as={Link} to='/resumepage'>
 							Resume
-						</Nav.Link>
-						<Nav.Link eventKey='2' as={Link} to='/contact'>
+						</Nav.Link> */}
+						{/* <Nav.Link eventKey='2' as={Link} to='/contact'>
 							Contact
-						</Nav.Link>
-						
-						
+						</Nav.Link> */}
 					</Nav>
 				</Navbar.Collapse>
 				<div className='row d-none d-sm-block'>
 					<div className='row'>
-						<Nav.Link className='col-4 p-3'>
+						<Nav.Link
+							className='col-4 p-3'
+							href='mailto:anthony@anthonyapps.com'
+						>
 							<i
 								className='bi bi-envelope-fill h4'
 								style={{ color: 'var(--tertiary)' }}
 							></i>
 						</Nav.Link>
-						<Nav.Link className='col-4 p-3'>
+						<Nav.Link
+							className='col-4 p-3'
+							href='https://www.linkedin.com/in/anthonyapicella/'
+							target='_blank'
+						>
 							<i
 								className='bi bi-github h4'
 								style={{ color: 'var(--tertiary)' }}
 							></i>
 						</Nav.Link>
-						<Nav.Link className='col-4 p-3'>
+						<Nav.Link
+							className='col-4 p-3'
+							href='https://github.com/anthonyapicella'
+							target='_blank'
+						>
 							<i
 								className='bi bi-linkedin h4'
 								style={{ color: 'var(--tertiary)' }}

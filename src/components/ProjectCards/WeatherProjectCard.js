@@ -25,9 +25,9 @@ import { Button } from 'react-bootstrap';
 
 const WeatherProjectCard = () => {
 	return (
-		<>
+		<div className='p-2'>
 			<Card
-				className=' m-2 border-0 shadow col-md-6 mx-auto'
+				className='m-2 border-0 shadow col-sm-12 col-md-10 col-lg-8 col-xl-7 mx-auto'
 				style={{ backgroundColor: 'var(--light)' }}
 				border='dark'
 			>
@@ -111,7 +111,7 @@ const WeatherProjectCard = () => {
 					</div>
 				</Card.Body>
 			</Card>
-		</>
+		</div>
 	);
 };
 
