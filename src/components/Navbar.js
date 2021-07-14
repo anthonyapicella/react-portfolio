@@ -36,8 +36,8 @@ const NavTop = () => {
 						<Nav.Link eventKey='2' as={Link} to='/about'>
 							About
 						</Nav.Link>
-						<Nav.Link eventKey='2' as={Link} to='/projects'>
-							Projects
+						<Nav.Link eventKey='2' as={Link} to='/portfolio'>
+							Portfolio
 						</Nav.Link>
 						{/* <Nav.Link eventKey='2' as={Link} to='/resumepage'>
 							Resume

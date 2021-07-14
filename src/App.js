@@ -5,7 +5,7 @@ import './App.css';
 import Navbar from './components/Navbar.js';
 import Hero from './components/Hero';
 import AboutMe from './components/AboutMe';
-import Projects from './components/Projects';
+import Portfolio from './components/Portfolio';
 import Contact from './components/ContactForm/ContactUs';
 
 
@@ -33,7 +33,7 @@ function App() {
 			<Switch>
 				<Route path='/' exact component={Hero} />
 				<Route path='/about' exact component={AboutMe} />
-				<Route path='/projects' exact component={Projects} />
+				<Route path='/portfolio' exact component={Portfolio} />
 				{/* <Route path='/resumepage' exact component={ResumePage} /> */}
 				<Route path='/contact' exact component={Contact} />
 				<Route path='/versatile-voice-studio' exact component={VvsProjectCard} />
@@ -42,7 +42,7 @@ function App() {
 				<Route path='/e-commerce' exact component={EcommerceProjectCard} />
 				<Route path='/team-profile-generator' exact component={TeamProProjectCard} />
 				<Route path='/xp' exact component={XpProjectCard} />
-			</Switch>
+			</Switch >
 			<Footer />
 		</Router>
 	);

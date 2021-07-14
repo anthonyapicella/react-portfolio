@@ -31,7 +31,7 @@ export default function ContactUs() {
 	return (
 		<div className='container'>
 			<h4 className='brand-title text-center p-3'>Contact</h4>
-
+			<p className="p-3 text-center">Please fill out the form below</p>
 			<div className='col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mx-auto text-center '>
 				{!sent ? (
 					<form className='form-group' onSubmit={sendEmail}>
@@ -93,7 +93,8 @@ export default function ContactUs() {
 					</form>
 				) : (
 					<div className='card border-2 mx-auto'>
-						<h6 className='p-4'>Form submitted, thank you!</h6>
+						<h6 className='p-4'>Thank you for your submission - I will get back to you shortly!  <br />
+						</h6>
 					</div>
 				)}
 			</div>

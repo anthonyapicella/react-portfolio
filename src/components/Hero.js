@@ -3,12 +3,12 @@ import React from 'react';
 import Typed from 'react-typed';
 import { Jumbotron, Container } from 'react-bootstrap';
 
-import Card from 'react-bootstrap/Card';
-import Skills from './Skills';
+import { Button } from 'react-bootstrap';
 
 import LightSpeed from 'react-reveal/LightSpeed';
 import Zoom from 'react-reveal/Zoom';
 import Bounce from 'react-reveal/Bounce';
+import Flip from 'react-reveal/Flip';
 
 const Hero = () => {
 	return (
@@ -69,10 +69,22 @@ const Hero = () => {
 						loop
 					/>
 					<Bounce bottom cascade>
-						<h6 className='hero-sub-heading p-2 text-center d-block d-xs-block d-sm-block d-md-block d-lg-none'>
+						<h6 className='hero-sub-heading p-4  text-center d-block d-xs-block d-sm-block d-md-block d-lg-none'>
 							creative. responsive. productive.
 						</h6>
 					</Bounce>
+					<div className='wrapper p-3 text-center'>
+						<Flip>
+							<Button
+								variant='outline-light'
+								className='rounded '
+								href='/contact'
+								size='sm'
+							>
+								Contact Me
+							</Button>
+						</Flip>
+					</div>
 				</Jumbotron>
 			</div>
 		</div>

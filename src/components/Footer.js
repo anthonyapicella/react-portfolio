@@ -32,8 +32,8 @@ const Footer = () => {
 						<Nav.Link className='mx-auto' eventKey='2' as={Link} to='/about'>
 							About
 						</Nav.Link>
-						<Nav.Link className='mx-auto' eventKey='2' as={Link} to='/projects'>
-							Projects
+						<Nav.Link className='mx-auto' eventKey='2' as={Link} to='/portfolio'>
+							Portfolio
 						</Nav.Link >
 						{/* <Nav.Link
 							className='mx-auto'
