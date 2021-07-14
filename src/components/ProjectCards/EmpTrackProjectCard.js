@@ -1,6 +1,6 @@
 import React from 'react';
 
-import empTrack from '../../assets/img/12_MYSQL.gif';
+import empTrack from '../../assets/img/empTracker.png';
 
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import { ButtonGroup, Image } from 'react-bootstrap';
@@ -16,6 +16,8 @@ import {
 	DiNodejsSmall,
 	DiMysql,
 } from 'react-icons/di';
+import { BsPlayFill } from 'react-icons/bs';
+
 
 import {
 	IoChevronForwardCircleSharp,
@@ -27,27 +29,23 @@ const EmpTrackProjectCard = () => {
 	return (
 		<div className='p-2'>
 			<Card
-				className='m-2 border-0 shadow col-sm-12 col-md-10 col-lg-8 col-xl-7 mx-auto'
+				className='m-2 shadow col-sm-12 col-md-10 col-lg-8 col-xl-7 mx-auto  border-5 '
 				style={{ backgroundColor: 'var(--light)' }}
-				border='dark'
 			>
 				<Card.Body className='justify-content-center'>
 					<Card.Title>
 						<h4 className='text-center'>Employee Tracker</h4>
 					</Card.Title>
-					<div
-						className='text-center p-2 mx-auto my-2'
-						style={{ backgroundColor: 'black' }}
-					>
+
 						<Image
 							className='mx-auto'
 							src={empTrack}
 							alt='Project Image'
 							fluid
 						/>
-					</div>
 
-					<Card.Text className='p-3'>
+
+					<Card.Text className='p-3 my-2'>
 						{' '}
 						A command-line application that provides a solution for managing a
 						company's employees. When the user runs the application they are
@@ -81,7 +79,7 @@ const EmpTrackProjectCard = () => {
 							variant='link'
 							className=''
 						>
-							<FaLink className='h1' />
+							<BsPlayFill className='h1' />
 							<sub>View Demo</sub>
 						</Button>
 

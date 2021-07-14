@@ -129,7 +129,7 @@ a.nav-link:focus {
 			rgba(58, 65, 70, 0.133),
 			rgba(46, 46, 75, 0.332)
 		),
-		url(../src/assets/img/codeBackground2.jpg);
+		url(../src/assets/img/codeBackground2.png);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
@@ -142,7 +142,7 @@ a.nav-link:focus {
 			rgba(58, 65, 70, 0.133),
 			rgba(46, 46, 75, 0.332)
 		),
-		url(../src/assets/img/codeBackground2.jpg);
+		url(../src/assets/img/codeBackground2.png);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
@@ -261,22 +261,11 @@ a.nav-link:focus {
 
 /* ********MY WORK********** */
 
-.myWork-wrapper {
-	/* background-color: var(--light); */
-	padding: 3rem 0;
-}
 
-.project-image {
-	width: 15rem;
-	height: 100%;
-	border: 1px solid var(--dark);
-	padding: 0.5rem;
-}
 
-.project-img-box {
-	position: relative;
-	margin: 1rem;
-}
+
+
+.
 
 .overflow {
 	position: absolute;

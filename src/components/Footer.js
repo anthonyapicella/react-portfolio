@@ -32,9 +32,9 @@ const Footer = () => {
 						<Nav.Link className='mx-auto' eventKey='2' as={Link} to='/about'>
 							About
 						</Nav.Link>
-						<Navnpm className='mx-auto' eventKey='2' as={Link} to='/projects'>
+						<Nav.Link className='mx-auto' eventKey='2' as={Link} to='/projects'>
 							Projects
-						</Navnpm .Link>
+						</Nav.Link >
 						{/* <Nav.Link
 							className='mx-auto'
 							eventKey='2'
@@ -43,9 +43,9 @@ const Footer = () => {
 						>
 							Resume
 						</Nav.Link> */}
-						{/* <Nav.Link eventKey='2' as={Link} to='/contact'>
+						<Nav.Link className='mx-auto' eventKey='2' as={Link} to='/contact'>
 						Contact
-					</Nav.Link> */}
+					</Nav.Link>
 					</Nav>
 				</div>
 			</div>

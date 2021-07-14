@@ -8,6 +8,7 @@ import Skills from './Skills';
 
 import LightSpeed from 'react-reveal/LightSpeed';
 import Zoom from 'react-reveal/Zoom';
+import Bounce from 'react-reveal/Bounce';
 
 const Hero = () => {
 	return (
@@ -28,16 +29,21 @@ const Hero = () => {
 					<Typed
 						className='typed-text h4 text-center d-none d-lg-block d-xl-block'
 						strings={[
-							'HTML/CSS',
+							'HTML/CSS ',
 							'JavaScript',
 							'MERN stack',
 							// 'Full-Stack Web Developer',
 						]}
-						startDelay={1000}
+						startDelay={1500}
 						typeSpeed={60}
 						backSpeed={80}
 						loop
 					/>
+					<Bounce bottom cascade>
+						<h5 className='hero-sub-heading p-2 text-center d-none d-lg-block d-xl-block align-middle'>
+							creative. responsive. productive.
+						</h5>
+					</Bounce>
 					{/* mobile */}
 					<LightSpeed left>
 						<h3 className='hero-heading text-center d-block d-xs-block d-sm-block d-md-block d-lg-none'>
@@ -57,11 +63,16 @@ const Hero = () => {
 							'MERN stack',
 							// 'Full-Stack Web Developer',
 						]}
-						startDelay={1000}
+						startDelay={1500}
 						typeSpeed={60}
 						backSpeed={80}
 						loop
 					/>
+					<Bounce bottom cascade>
+						<h6 className='hero-sub-heading p-2 text-center d-block d-xs-block d-sm-block d-md-block d-lg-none'>
+							creative. responsive. productive.
+						</h6>
+					</Bounce>
 				</Jumbotron>
 			</div>
 		</div>

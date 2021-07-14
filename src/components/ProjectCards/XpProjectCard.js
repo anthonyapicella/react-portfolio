@@ -1,7 +1,7 @@
 import React from 'react';
 
 import xpLOGO from '../../assets/img/XPpediaLOGO.png';
-import xp from '../../assets/img/XPpedia.gif';
+import xp from '../../assets/img/XPpedia.png';
 
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import { ButtonGroup, Image } from 'react-bootstrap';
@@ -9,7 +9,7 @@ import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 import { ListGroup } from 'react-bootstrap';
 import { TiHtml5, TiCss3 } from 'react-icons/ti';
-import { FaReact, FaBootstrap, FaLink } from 'react-icons/fa';
+import { FaReact, FaBootstrap, FaLink, FaGlobe } from 'react-icons/fa';
 import { DiGithubBadge, DiGithubFull } from 'react-icons/di';
 import {
 	IoChevronForwardCircleSharp,
@@ -21,13 +21,12 @@ const XpProjectCard = () => {
 	return (
 		<div className='p-2'>
 			<Card
-				className='m-2 border-0 shadow col-sm-12 col-md-10 col-lg-8 col-xl-7 mx-auto'
+				className='m-2 shadow col-sm-12 col-md-10 col-lg-8 col-xl-7 mx-auto  border-5 '
 				style={{ backgroundColor: 'var(--light)' }}
-				border='dark'
 			>
-				<Card.Body className='justify-content-center'>
+				<Card.Body className='justify-content-center rounded'>
 					<Card.Title>
-						<h4 className='text-center'>
+						<h4 className='text-center p-3'>
 							<Image
 								style={{ width: '250px' }}
 								src={xpLOGO}
@@ -36,14 +35,9 @@ const XpProjectCard = () => {
 							/>
 						</h4>
 					</Card.Title>
-					<div
-						className='text-center p-2 mx-auto my-2'
-						style={{ backgroundColor: 'black' }}
-					>
-						<Image className='' src={xp} alt='Project Image' fluid />
-					</div>
+					<Image className='shadow' src={xp} alt='Project Image' fluid />
 
-					<Card.Text className='p-3'>
+					<Card.Text className='p-3 my-2'>
 						{' '}
 						XP pedia is a user friendly web application that calculates how long
 						it will take a user to complete a chosen video game based upon the
@@ -79,8 +73,8 @@ const XpProjectCard = () => {
 							variant='link'
 							className=''
 						>
-							<FaLink className='h1' />
-							<sub>visit site</sub>
+							<FaGlobe className='h3' />
+							<sub> Visit site</sub>
 						</Button>
 
 						<Button

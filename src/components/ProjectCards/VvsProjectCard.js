@@ -1,6 +1,6 @@
 import React from 'react';
 
-import vvs from '../../assets/img/vvsDEM.gif';
+import vvs from '../../assets/img/vvsScreen.png';
 import vvsLOGO from '../../assets/img/vvsLOGO.png';
 
 import Jumbotron from 'react-bootstrap/Jumbotron';
@@ -9,7 +9,7 @@ import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 import { ListGroup } from 'react-bootstrap';
 import { TiHtml5, TiCss3 } from 'react-icons/ti';
-import { FaReact, FaBootstrap, FaLink } from 'react-icons/fa';
+import { FaReact, FaBootstrap, FaGlobe } from 'react-icons/fa';
 import { DiGithubBadge, DiGithubFull, DiPhotoshop } from 'react-icons/di';
 import {
 	IoChevronForwardCircleSharp,
@@ -21,9 +21,7 @@ const VvsProjectCard = () => {
 	return (
 		<div className='p-2'>
 			<Card
-				className='m-2 border-0 shadow col-sm-12 col-md-10 col-lg-8 col-xl-7 mx-auto'
-				style={{ backgroundColor: 'var(--light)' }}
-				border='dark'
+				className='m-2 shadow col-sm-12 col-md-10 col-lg-8 col-xl-7 mx-auto  border-5 '
 			>
 				<Card.Body className='justify-content-center'>
 					<Card.Title>
@@ -37,8 +35,8 @@ const VvsProjectCard = () => {
 						</h4>
 					</Card.Title>
 					<div
-						className='mx-auto text-center p-2 mx-auto my-2'
-						style={{ backgroundColor: 'black' }}
+						className='mx-auto text-center p-1 mx-auto my-2'
+						style={{ backgroundColor: 'var(--tertiary)' }}
 					>
 						<Image className='' src={vvs} alt='Project Image' fluid />
 					</div>
@@ -85,8 +83,8 @@ const VvsProjectCard = () => {
 							variant='link'
 							className=''
 						>
-							<FaLink className='h1' />
-							<sub>Visit Site</sub>
+							<FaGlobe className='h3' />
+							<sub> Visit Site</sub>
 						</Button>
 
 						<Button

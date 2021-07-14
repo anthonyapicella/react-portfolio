@@ -1,6 +1,6 @@
 import React from 'react';
 
-import weather from '../../assets/img/Weather.gif';
+import weather from '../../assets/img/Weather.png';
 
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import { ButtonGroup, Image } from 'react-bootstrap';
@@ -8,7 +8,7 @@ import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 import { ListGroup } from 'react-bootstrap';
 import { TiHtml5, TiCss3 } from 'react-icons/ti';
-import { FaReact, FaBootstrap, FaLink } from 'react-icons/fa';
+import { FaReact, FaBootstrap, FaLink, FaGlobe } from 'react-icons/fa';
 import {
 	DiGithubBadge,
 	DiGithubFull,
@@ -27,22 +27,20 @@ const WeatherProjectCard = () => {
 	return (
 		<div className='p-2'>
 			<Card
-				className='m-2 border-0 shadow col-sm-12 col-md-10 col-lg-8 col-xl-7 mx-auto'
+				className='m-2 shadow col-sm-12 col-md-10 col-lg-8 col-xl-7 mx-auto  border-5 '
 				style={{ backgroundColor: 'var(--light)' }}
-				border='dark'
+				
+
 			>
-				<Card.Body className='justify-content-center'>
+				<Card.Body className='justify-content-center rounded'>
 					<Card.Title>
 						<h4 className='text-center'>Weather!</h4>
 					</Card.Title>
-					<div
-						className='mx-auto text-center p-2 mx-auto my-2'
-						style={{ backgroundColor: 'black' }}
-					>
-						<Image className='' src={weather} alt='Project Image' fluid />
-					</div>
 
-					<Card.Text className='p-3'>
+						<Image className='shadow' src={weather} alt='Project Image' fluid />
+
+
+					<Card.Text className='p-3 my-2'>
 						{' '}
 						Weather! is a responsive web application that provides the user with
 						the days weather at a chosen location in addition to that city's
@@ -84,8 +82,8 @@ const WeatherProjectCard = () => {
 							variant='link'
 							className=''
 						>
-							<FaLink className='h1' />
-							<sub>View Demo</sub>
+							<FaGlobe className='h3' />
+							<sub> View Demo</sub>
 						</Button>
 
 						<Button

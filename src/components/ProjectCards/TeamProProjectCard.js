@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 import { ListGroup } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
 import { TiHtml5, TiCss3 } from 'react-icons/ti';
-import { FaReact, FaBootstrap, FaLink, FaPlay } from 'react-icons/fa';
+import { FaReact, FaBootstrap, FaLink,  FaGlobe } from 'react-icons/fa';
 import { BsPlayFill } from 'react-icons/bs';
 import {
 	DiGithubBadge,
@@ -24,40 +24,29 @@ import {
 } from 'react-icons/io5';
 import { SiJest } from 'react-icons/si';
 import { Button } from 'react-bootstrap';
+import tpg1 from '../../assets/img/TPG1.png';
+import tpg2 from '../../assets/img/TPG2.png';
 
 const TeamProProjectCard = () => {
 	return (
 		<div className='p-2'>
 			<Card
-				className='m-2 border-0 shadow col-sm-12 col-md-10 col-lg-8 col-xl-7 mx-auto'
+				className='m-2 shadow col-sm-12 col-md-10 col-lg-8 col-xl-7 mx-auto  border-5'
 				style={{ backgroundColor: 'var(--light)' }}
-				border='dark'
 			>
 				<Card.Body className='justify-content-center'>
 					<Card.Title>
 						<h4 className='text-center'>Team Profile Generator</h4>
 					</Card.Title>
-					<div
-						className='mx-auto text-center p-2 mx-auto my-2'
-						style={{ backgroundColor: 'black' }}
-					>
-						<Carousel fade>
-							<Carousel.Item>
-								<img
-									className='d-block w-100'
-									src='https://firebasestorage.googleapis.com/v0/b/anthonyapps-d30b1.appspot.com/o/assets%2Fimg%2FTPG2.png?alt=media&token=d26e9114-4b9d-49d2-80bf-2dd0c107c809'
-									alt='Front End'
-								/>
-							</Carousel.Item>
-							<Carousel.Item>
-								<img
-									className='d-block w-100'
-									src='https://firebasestorage.googleapis.com/v0/b/anthonyapps-d30b1.appspot.com/o/assets%2Fimg%2FTPG1.png?alt=media&token=abe7aaf1-3edd-428b-acf1-6a73f34c059d'
-									alt='Back End'
-								/>
-							</Carousel.Item>
-						</Carousel>
-					</div>
+
+					<Carousel className='shadow' fade>
+						<Carousel.Item>
+							<img className='d-block w-100' src={tpg2} alt='Front End' />
+						</Carousel.Item>
+						<Carousel.Item>
+							<img className='d-block w-100' src={tpg1} alt='Back End' />
+						</Carousel.Item>
+					</Carousel>
 
 					<Card.Text className='p-3'>
 						{' '}

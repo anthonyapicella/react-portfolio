@@ -6,12 +6,12 @@ import Navbar from './components/Navbar.js';
 import Hero from './components/Hero';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
-import Contact from './components/ContactForm/Contact';
+import Contact from './components/ContactForm/ContactUs';
 
 
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
-import ResumePage from './components/Resume/ResumePage';
+// import ResumePage from './components/Resume/ResumePage';
 import Footer from './components/Footer';
 
 import ScrollToTop from './components/ScrollUp/ScrollToTop';
@@ -34,8 +34,8 @@ function App() {
 				<Route path='/' exact component={Hero} />
 				<Route path='/about' exact component={AboutMe} />
 				<Route path='/projects' exact component={Projects} />
-				<Route path='/resumepage' exact component={ResumePage} />
-				{/* <Route path='/contact' exact component={Contact} /> */}
+				{/* <Route path='/resumepage' exact component={ResumePage} /> */}
+				<Route path='/contact' exact component={Contact} />
 				<Route path='/versatile-voice-studio' exact component={VvsProjectCard} />
 				<Route path='/employee-tracker' exact component={EmpTrackProjectCard} />
 				<Route path='/weather' exact component={WeatherProjectCard} />

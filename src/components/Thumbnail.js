@@ -6,7 +6,7 @@ function Thumbnail(props) {
 	return (
 		<>
 			<Card
-				className='mx-auto shadow rounded '
+				className='mx-auto shadow border-3 '
 				style={{ width: '18rem', backgroundColor: 'var(--light)' }}
 				border=''
 			>
@@ -16,7 +16,7 @@ function Thumbnail(props) {
 							<h5>{props.title}</h5>
 						</Card.Title>
 						<Card.Img
-							className='project-image shadow'
+							className=' shadow'
 							style={{ backgroundColor: 'var(--dark)' }}
 							src={props.image}
 							alt='Project Image'

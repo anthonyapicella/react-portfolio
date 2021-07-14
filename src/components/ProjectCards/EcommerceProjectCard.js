@@ -9,6 +9,8 @@ import { Icon, InlineIcon } from '@iconify/react';
 import { TiHtml5, TiCss3 } from 'react-icons/ti';
 // import ReactPlayer from 'react-player'
 import { FaReact, FaBootstrap, FaLink } from 'react-icons/fa';
+import { BsPlayFill } from 'react-icons/bs';
+
 import {
 	DiGithubBadge,
 	DiGithubFull,
@@ -22,39 +24,41 @@ import {
 } from 'react-icons/io5';
 import expressIcon from '@iconify-icons/simple-icons/express';
 import { Button } from 'react-bootstrap';
+import eCom1 from '../../assets/img/backend1.png'
+import eCom2 from '../../assets/img/backend2.png'
+
 
 const EcommerceProjectCard = () => {
 	return (
 		<div className='p-2'>
 			<Card
-				className='m-2 border-0 shadow col-sm-12 col-md-10 col-lg-8 col-xl-7 mx-auto'
+				className='m-2 shadow col-sm-12 col-md-10 col-lg-8 col-xl-7 mx-auto  border-5 '
 				style={{ backgroundColor: 'var(--light)' }}
-				border='dark'
 			>
 				<Card.Body className='justify-content-center'>
 					<Card.Title>
 						<h4 className='text-center'>E-Commerce Back-end</h4>
 					</Card.Title>
-					<div className='mx-auto text-center p-2 mx-auto my-2 bg-dark'>
-						<Carousel fade>
+
+						<Carousel className='shadow' fade>
 							<Carousel.Item>
 								<img
 									className='d-block w-100'
-									src='https://firebasestorage.googleapis.com/v0/b/anthonyapps-d30b1.appspot.com/o/assets%2Fimg%2Fbackend1.png?alt=media&token=f32f63b1-a19f-4572-bc94-59dd02392492'
+									src={eCom1}
 									alt='Front End'
 								/>
 							</Carousel.Item>
 							<Carousel.Item>
 								<img
 									className='d-block w-100'
-									src='https://firebasestorage.googleapis.com/v0/b/anthonyapps-d30b1.appspot.com/o/assets%2Fimg%2Fbackend2.png?alt=media&token=368c553c-577c-4c70-94e6-72df16ac15d8'
+									src={eCom2}
 									alt='Back End'
 								/>
 							</Carousel.Item>
 						</Carousel>
-					</div>
 
-					<Card.Text className='p-3'>
+
+					<Card.Text className='p-3 my-2'>
 						{' '}
 						Back-End application for an e-commerce site. A working Express.js
 						API which uses Sequelize to interact with a MySQL database. Allows
@@ -90,7 +94,7 @@ const EcommerceProjectCard = () => {
 							variant='link'
 							className=''
 						>
-							<FaLink className='display-5' />
+							<BsPlayFill className='display-5' />
 							<sub>View Demo</sub>
 						</Button>
 						<Button
