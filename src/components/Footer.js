@@ -23,32 +23,6 @@ const Footer = () => {
 			bg='transparent'
 			variant='light'
 		>
-			<div className='col-lg-4 col-md-4 col-sm-6 col-xs-12 '>
-				<div className='align-items-center'>
-					<Nav className='mx-auto text-center footer-nav'>
-						<Nav.Link className='mx-auto' eventKey='1' as={Link} to='/'>
-							Home
-						</Nav.Link>
-						<Nav.Link className='mx-auto' eventKey='2' as={Link} to='/about'>
-							About
-						</Nav.Link>
-						<Nav.Link className='mx-auto' eventKey='2' as={Link} to='/portfolio'>
-							Portfolio
-						</Nav.Link >
-						{/* <Nav.Link
-							className='mx-auto'
-							eventKey='2'
-							as={Link}
-							to='/resumepage'
-						>
-							Resume
-						</Nav.Link> */}
-						<Nav.Link className='mx-auto' eventKey='2' as={Link} to='/contact'>
-						Contact
-					</Nav.Link>
-					</Nav>
-				</div>
-			</div>
 			<div className='col-lg-4 col-md-4 col-sm-12 col-xs-12 '>
 				<div className='mx-auto d-flex justify-content-center'>
 					<Nav.Item className=''>
@@ -86,6 +60,37 @@ const Footer = () => {
 							></i>
 						</Nav.Link>
 					</Nav.Item>
+				</div>
+			</div>
+			<div className='col-lg-4 col-md-4 col-sm-6 col-xs-12 '>
+				<div className='align-items-center'>
+					<Nav className='mx-auto text-center footer-nav'>
+						<Nav.Link className='mx-auto' eventKey='1' as={Link} to='/'>
+							Home
+						</Nav.Link>
+						<Nav.Link className='mx-auto' eventKey='2' as={Link} to='/about'>
+							About
+						</Nav.Link>
+						<Nav.Link
+							className='mx-auto'
+							eventKey='2'
+							as={Link}
+							to='/portfolio'
+						>
+							Portfolio
+						</Nav.Link>
+						{/* <Nav.Link
+							className='mx-auto'
+							eventKey='2'
+							as={Link}
+							to='/resumepage'
+						>
+							Resume
+						</Nav.Link> */}
+						<Nav.Link className='mx-auto' eventKey='2' as={Link} to='/contact'>
+							Contact
+						</Nav.Link>
+					</Nav>
 				</div>
 			</div>
 			<div className='col-lg-4 col-md-4 col-sm-12 col-xs-12'>

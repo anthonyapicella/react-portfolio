@@ -42,7 +42,7 @@ const XpProjectCard = () => {
 						XP pedia is a user friendly web application that calculates how long
 						it will take a user to complete a chosen video game based upon the
 						their lifestyle. We all have a growing collection of unfinished
-						video games due to busy our schedules. We want to beat those games!{' '}
+						video games due to our busy schedules. We want to beat those games!{' '}
 					</Card.Text>
 					<Card.Subtitle>
 						<h6 className='text-center'>built with...</h6>{' '}
@@ -67,7 +67,7 @@ const XpProjectCard = () => {
 					<Card.Subtitle />
 					<Card.Body className='text-center'>
 						<Button
-							href='https://theversatilevoicestudio.com'
+							href='https://github.com/anthonyapicella/XP-pedia'
 							target='_blank'
 							style={{ color: 'var(--dark)' }}
 							variant='link'
@@ -78,7 +78,7 @@ const XpProjectCard = () => {
 						</Button>
 
 						<Button
-							href='https://github.com/anthonyapicella'
+							href='https://anthonyapicella.github.io/XP-pedia/'
 							target='_blank'
 							style={{ color: 'var(--dark)' }}
 							variant='link'

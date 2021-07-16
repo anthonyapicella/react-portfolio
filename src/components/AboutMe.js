@@ -4,7 +4,6 @@ import Skills from './Skills';
 import Fade from 'react-reveal/Fade';
 import firstComputer from '../../src/assets/img/aFirstComputer.png';
 
-
 class AboutMe extends React.Component {
 	constructor(props) {
 		super(props);
@@ -36,10 +35,10 @@ class AboutMe extends React.Component {
 							seamless user experience while also maintaining brand consistency.
 							Throughout my career I have always demonstrated strong leadership
 							skills and an ability to rise to any challenge. Proficient in
-							HTML/CSS, JavaScript, MERN stack and Adobe Photoshop. Received
-							a certificate in Full-Stack Web Development from UCLA Extension.{' '}
+							HTML/CSS, JavaScript, MERN stack and Adobe Photoshop. Received a
+							certificate in Full-Stack Web Development from UCLA Extension.{' '}
 						</p>
-						<Fade right cascade collapse when={this.state.display}>
+						<Fade right cascade when={this.state.display} collapse>
 							<div className='text-center p-1'>
 								<img
 									className='img-fluid mb-3 rounded-lg shadow-lg headshot'
@@ -50,14 +49,15 @@ class AboutMe extends React.Component {
 									Growing up in NYC, I dreamed of one day becoming a successful
 									actor. So, as the story goes, I grabbed my family and moved to
 									Hollywood where I became a Web Developer. Spending 15 years as
-									a working artist had it's ups and downs. I traveled the globe
+									a working artist made me who I am today. I traveled the globe
 									and saw many incredible places. I've performed for audiences
 									of 18 to 18,000 and loved every second - but my real passion
 									is PROBLEM SOLVING. It's what makes me a great developer. I
-									have always had a thirst for knowledge and a love of all things tech!
+									have always had a thirst for knowledge and a love of all
+									things tech!
 								</p>
 							</div>
-						</Fade>
+						</Fade>{' '}
 						<div className='text-center'>
 							<button
 								className='btn btn-dark rounded btn-lg my-1'
@@ -69,9 +69,7 @@ class AboutMe extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className=''>
-					<Skills />
-				</div>
+				<Skills />
 			</div>
 		);
 	}

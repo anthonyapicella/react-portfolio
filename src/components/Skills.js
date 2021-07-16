@@ -27,101 +27,97 @@ class Skills extends React.Component {
 	}
 	render() {
 		return (
-			<div id='skills' className='skills'>
-				<div className=''>
-					<Zoom left cascade when={this.state.display} collapse>
-						<div className='row'>
-							<div className='col-lg-3 col-md-6 col-sm-6'>
-								<div className='box shadow rounded'>
-									<div className='circle'>
-										<FontAwesomeIcon
-											className='icon'
-											icon={faHtml5}
-											size='2x'
-										/>
-									</div>
-									<p className='skill-text'>HTML5</p>
+			<>
+				<Zoom left cascade when={this.state.display} collapse>
+					<div className='row skills'>
+						<div className='col-lg-3 col-md-6 col-sm-6'>
+							<div className='box shadow rounded'>
+								<div className='circle'>
+									<FontAwesomeIcon className='icon' icon={faHtml5} size='2x' />
 								</div>
-							</div>
-							<div className='col-lg-3 col-md-6 col-sm-6'>
-								<div className='box shadow rounded'>
-									<div className='circle'>
-										<FontAwesomeIcon className='icon' icon={faCss3} size='2x' />
-									</div>
-									<p className='skill-text'>CSS3</p>
-								</div>
-							</div>
-							<div className='col-lg-3 col-md-6 col-sm-6'>
-								<div className='box shadow rounded'>
-									<div className='circle'>
-										<FontAwesomeIcon className='icon' icon={faJs} size='2x' />
-									</div>
-									<p className='skill-text'>JavaScript</p>
-								</div>
-							</div>
-							<div className='col-lg-3 col-md-6 col-sm-6'>
-								<div className='box shadow rounded'>
-									<div className='circle'>
-										<FontAwesomeIcon
-											className='icon'
-											icon={faBootstrap}
-											size='2x'
-										/>
-									</div>
-									<p className='skill-text'>Bootstrap</p>
-								</div>
-							</div>
-							<div className='col-lg-3 col-md-6 col-sm-6'>
-								<div className='box shadow rounded'>
-									<div className='circle p-2'>
-										<Icon className='svg-icon' icon={mysqlIcon} width={35} height={35} />
-									</div>
-									<p className='skill-text'>MySQL</p>
-								</div>
-							</div>
-							<div className='col-lg-3 col-md-6 col-sm-6'>
-								<div className='box shadow rounded'>
-									<div className='circle p-1'>
-										<Icon className='svg-icon' icon={expressIcon} width={40} height={40} />
-									</div>
-									<p className='skill-text'>Express.js</p>
-								</div>
-							</div>
-							<div className='col-lg-3 col-md-6 col-sm-6'>
-								<div className='box shadow rounded'>
-									<div className='circle'>
-										<FontAwesomeIcon
-											className='icon'
-											icon={faReact}
-											size='2x'
-										/>
-									</div>
-									<p className='skill-text'>React.js</p>
-								</div>
-							</div>
-							<div className='col-lg-3 col-md-6 col-sm-6'>
-								<div className='box shadow rounded'>
-									<div className='circle'>
-										<FontAwesomeIcon
-											className='icon'
-											icon={faNodeJs}
-											size='2x'
-										/>
-									</div>
-									<p className='skill-text'>NODE.js</p>
-								</div>
+								<p className='skill-text'>HTML5</p>
 							</div>
 						</div>
-					</Zoom>
-					<button
-						className='btn btn-dark btn-lg btn-block my-1'
-						type='button'
-						onClick={this.handleClick}
-					>
-						{this.state.display ? 'Hide' : 'See'} myDevSkills
-					</button>
-				</div>
-			</div>
+						<div className='col-lg-3 col-md-6 col-sm-6'>
+							<div className='box shadow rounded'>
+								<div className='circle'>
+									<FontAwesomeIcon className='icon' icon={faCss3} size='2x' />
+								</div>
+								<p className='skill-text'>CSS3</p>
+							</div>
+						</div>
+						<div className='col-lg-3 col-md-6 col-sm-6'>
+							<div className='box shadow rounded'>
+								<div className='circle'>
+									<FontAwesomeIcon className='icon' icon={faJs} size='2x' />
+								</div>
+								<p className='skill-text'>JavaScript</p>
+							</div>
+						</div>
+						<div className='col-lg-3 col-md-6 col-sm-6'>
+							<div className='box shadow rounded'>
+								<div className='circle'>
+									<FontAwesomeIcon
+										className='icon'
+										icon={faBootstrap}
+										size='2x'
+									/>
+								</div>
+								<p className='skill-text'>Bootstrap</p>
+							</div>
+						</div>
+						<div className='col-lg-3 col-md-6 col-sm-6'>
+							<div className='box shadow rounded'>
+								<div className='circle p-2'>
+									<Icon
+										className='svg-icon'
+										icon={mysqlIcon}
+										width={35}
+										height={35}
+									/>
+								</div>
+								<p className='skill-text'>MySQL</p>
+							</div>
+						</div>
+						<div className='col-lg-3 col-md-6 col-sm-6'>
+							<div className='box shadow rounded'>
+								<div className='circle p-1'>
+									<Icon
+										className='svg-icon'
+										icon={expressIcon}
+										width={40}
+										height={40}
+									/>
+								</div>
+								<p className='skill-text'>Express.js</p>
+							</div>
+						</div>
+						<div className='col-lg-3 col-md-6 col-sm-6'>
+							<div className='box shadow rounded'>
+								<div className='circle'>
+									<FontAwesomeIcon className='icon' icon={faReact} size='2x' />
+								</div>
+								<p className='skill-text'>React.js</p>
+							</div>
+						</div>
+						<div className='col-lg-3 col-md-6 col-sm-6'>
+							<div className='box shadow rounded'>
+								<div className='circle'>
+									<FontAwesomeIcon className='icon' icon={faNodeJs} size='2x' />
+								</div>
+								<p className='skill-text'>NODE.js</p>
+							</div>
+						</div>
+					</div>
+				</Zoom>
+				<button
+					className='btn btn-dark btn-lg btn-block my-1'
+					type='button'
+					onClick={this.handleClick}
+				>
+					{this.state.display ? 'Hide' : 'See'} myDevSkills
+				</button>
+			</>
 		);
 	}
 }
