@@ -1,7 +1,9 @@
 import React from 'react';
 // font awesome
 
-import {
+import logo from '../assets/img/aaLOGOS.png'
+
+import {    
 	Navbar,
 	Nav,
 	Form,
@@ -9,6 +11,7 @@ import {
 	Button,
 	NavDropdown,
 	NavItem,
+	Image
 } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
@@ -24,8 +27,8 @@ const NavTop = () => {
 			variant='dark'
 		>
 			<div className='container'>
-				<Navbar.Brand href='/' className='brand'>
-					anthonyApps
+				<Navbar.Brand href='/' className=''>
+					<Image src={logo} style={{ width: '11rem' }}/>
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls='basic-navbar-nav' />
 				<Navbar.Collapse id='basic-navbar-nav'>
