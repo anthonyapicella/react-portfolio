@@ -10,7 +10,7 @@
 html,
 body {
 	color: var(--dark);
-	background-color: var(--tertiary);
+	background-color: var(--light);
 	font-family: 'Cuprum', sans-serif;
 	color: var(--dark);
 	overflow-x: hidden;
@@ -261,13 +261,7 @@ a.nav-link:focus {
 
 /* ********MY WORK********** */
 
-
-
-
-
-.
-
-.overflow {
+. .overflow {
 	position: absolute;
 	opacity: 0;
 	background: var(--dark);
@@ -340,7 +334,6 @@ a.nav-link:focus {
 
 .footer-dark-bottom {
 	background-color: var(--primary) !important;
-
 }
 
 /* SCROLLtoTOP */
@@ -357,7 +350,6 @@ a.nav-link:focus {
 	-webkit-transition: 0.5s;
 	transition: 0.5s;
 } */
-
 
 /********** MEDIA Q ********/
 

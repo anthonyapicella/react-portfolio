@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 
+
 export default function ContactUs() {
 	const [sent, setSent] = useState(false);
 	const [fullName, setFullName] = useState('');
@@ -12,7 +13,7 @@ export default function ContactUs() {
 
 		emailjs
 			.sendForm(
-				'anthonyAppsMail',
+				'service_tulswpa',
 				'template_9g3momq',
 				e.target,
 				'user_jZu7XYoghnCIn8M7kbo8i'
@@ -31,7 +32,7 @@ export default function ContactUs() {
 	return (
 		<div className='container'>
 			<h4 className='brand-title text-center p-3'>Contact</h4>
-			<p className="p-3 text-center">Please fill out the form below</p>
+			<p className="p-3 text-center">Please fill out the form below </p>
 			<div className='col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mx-auto text-center '>
 				{!sent ? (
 					<form className='form-group' onSubmit={sendEmail}>
@@ -93,8 +94,8 @@ export default function ContactUs() {
 					</form>
 				) : (
 					<div className='card border-2 mx-auto'>
-						<h6 className='p-4'>Thank you for your submission - I will get back to you shortly!  <br />
-						</h6>
+						<p className='p-4'>Thank you for your submission - I will get back to you shortly!  <br />
+						</p>
 					</div>
 				)}
 			</div>

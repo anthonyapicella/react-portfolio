@@ -8,7 +8,6 @@ import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import Contact from './components/ContactForm/ContactUs';
 
-
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 // import ResumePage from './components/Resume/ResumePage';
@@ -22,27 +21,43 @@ import WeatherProjectCard from './components/ProjectCards/WeatherProjectCard';
 import EcommerceProjectCard from './components/ProjectCards/EcommerceProjectCard';
 import TeamProProjectCard from './components/ProjectCards/TeamProProjectCard';
 import XpProjectCard from './components/ProjectCards/XpProjectCard';
-
+import ContactUs from './components/ContactForm/ContactUs';
 
 function App() {
 	return (
 		<Router>
 			<Navbar />
-			<ScrollToButton/>
+			<ScrollToButton />
 			<ScrollToTop />
 			<Switch>
 				<Route path='/' exact component={Hero} />
 				<Route path='/about' exact component={AboutMe} />
 				<Route path='/portfolio' exact component={Portfolio} />
 				{/* <Route path='/resumepage' exact component={ResumePage} /> */}
-				<Route path='/contact' exact component={Contact} />
-				<Route path='/versatile-voice-studio' exact component={VvsProjectCard} />
-				<Route path='/employee-tracker' exact component={EmpTrackProjectCard} />
+				<Route path='/contact' exact component={ContactUs} />
+				<Route
+					path='/versatile-voice-studio'
+					exact
+					component={VvsProjectCard}
+				/>
+				<Route
+					path='/employee-tracker'
+					exact
+					component={EmpTrackProjectCard}
+				/>
 				<Route path='/weather' exact component={WeatherProjectCard} />
-				<Route path='/e-commerce' exact component={EcommerceProjectCard} />
-				<Route path='/team-profile-generator' exact component={TeamProProjectCard} />
+				<Route
+					path='/e-commerce'
+					exact
+					component={EcommerceProjectCard}
+				/>
+				<Route
+					path='/team-profile-generator'
+					exact
+					component={TeamProProjectCard}
+				/>
 				<Route path='/xp' exact component={XpProjectCard} />
-			</Switch >
+			</Switch>
 			<Footer />
 		</Router>
 	);

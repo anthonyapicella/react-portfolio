@@ -7,7 +7,7 @@ function Thumbnail(props) {
 		<>
 			<Card
 				className='mx-auto shadow border-3 '
-				style={{ width: '18rem', backgroundColor: 'var(--light)' }}
+				style={{ width: '18rem', backgroundColor: 'white' }}
 				border=''
 			>
 				<Card.Body>
