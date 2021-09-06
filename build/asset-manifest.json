@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.0fbc7cab.chunk.css",
-    "main.js": "/static/js/main.fab6df1f.chunk.js",
-    "main.js.map": "/static/js/main.fab6df1f.chunk.js.map",
+    "main.css": "/static/css/main.5c5a7c40.chunk.css",
+    "main.js": "/static/js/main.a5be68b7.chunk.js",
+    "main.js.map": "/static/js/main.a5be68b7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.31a3e75a.js",
     "runtime-main.js.map": "/static/js/runtime-main.31a3e75a.js.map",
     "static/css/2.9233ae65.chunk.css": "/static/css/2.9233ae65.chunk.css",
@@ -11,10 +11,10 @@
     "static/js/3.20bc0c63.chunk.js": "/static/js/3.20bc0c63.chunk.js",
     "static/js/3.20bc0c63.chunk.js.map": "/static/js/3.20bc0c63.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e5ee6895ce3aaba1015bea1166450dc7.js": "/precache-manifest.e5ee6895ce3aaba1015bea1166450dc7.js",
+    "precache-manifest.b056dc836adca0148f8eabae7782b88e.js": "/precache-manifest.b056dc836adca0148f8eabae7782b88e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9233ae65.chunk.css.map": "/static/css/2.9233ae65.chunk.css.map",
-    "static/css/main.0fbc7cab.chunk.css.map": "/static/css/main.0fbc7cab.chunk.css.map",
+    "static/css/main.5c5a7c40.chunk.css.map": "/static/css/main.5c5a7c40.chunk.css.map",
     "static/js/2.b632b3a6.chunk.js.LICENSE.txt": "/static/js/2.b632b3a6.chunk.js.LICENSE.txt",
     "static/media/ApicellaHeadshot2.png": "/static/media/ApicellaHeadshot2.f7bdf400.png",
     "static/media/TPG1.png": "/static/media/TPG1.d217aef7.png",
@@ -28,14 +28,14 @@
     "static/media/backend2.png": "/static/media/backend2.4964e91e.png",
     "static/media/App.css": "/static/media/codeBackground2.d81022be.png",
     "static/media/empTracker.png": "/static/media/empTracker.86f557fa.png",
-    "static/media/vvsLOGO.png": "/static/media/vvsLOGO.33fc526c.png",
-    "static/media/vvsScreen.png": "/static/media/vvsScreen.a094216e.png"
+    "static/media/vvsLogo.png": "/static/media/vvsLogo.c89aedb8.png",
+    "static/media/vvsScreen.png": "/static/media/vvsScreen.13b38486.png"
   },
   "entrypoints": [
     "static/js/runtime-main.31a3e75a.js",
     "static/css/2.9233ae65.chunk.css",
     "static/js/2.b632b3a6.chunk.js",
-    "static/css/main.0fbc7cab.chunk.css",
-    "static/js/main.fab6df1f.chunk.js"
+    "static/css/main.5c5a7c40.chunk.css",
+    "static/js/main.a5be68b7.chunk.js"
   ]
 }

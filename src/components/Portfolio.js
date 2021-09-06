@@ -22,9 +22,9 @@ function Portfolio(props) {
 					<div className='p-2 col-lg-4 col-md-6 col-sm-12'>
 						<Thumbnail
 							className=''
-							link='/versatile-voice-studio'
+							link='/color-your-voice'
 							image={vvs}
-							title='The Versatile Voice Studio'
+							title='Color Your Voice'
 							category='Small Business Web App'
 						/>
 					</div>

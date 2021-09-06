@@ -36,7 +36,7 @@ function App() {
 				{/* <Route path='/resumepage' exact component={ResumePage} /> */}
 				<Route path='/contact' exact component={ContactUs} />
 				<Route
-					path='/versatile-voice-studio'
+					path='/color-your-voice'
 					exact
 					component={VvsProjectCard}
 				/>

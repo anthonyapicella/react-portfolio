@@ -31,10 +31,10 @@ const MyWork = () => {
 				<a
 					className='hyper-link'
 					onClick={() =>
-						window.open('https://theversatilevoicestudio.com/', '_blank')
+						window.open('https://coloryourvoice.com/', '_blank')
 					}
 				>
-					The Versatile Voice Studio
+					Color Your Voice
 				</a>
 			</>
 		);

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import vvs from '../../assets/img/vvsScreen.png';
-import vvsLOGO from '../../assets/img/vvsLOGO.png';
+import vvsLOGO from '../../assets/img/vvsLogo.png';
 
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import { ButtonGroup, Image } from 'react-bootstrap';
@@ -77,7 +77,7 @@ const VvsProjectCard = () => {
 					<Card.Subtitle />
 					<Card.Body className='text-center'>
 						<Button
-							href='https://theversatilevoicestudio.com'
+							href='https://coloryourvoice.com'
 							target='_blank'
 							style={{ color: 'var(--dark)' }}
 							variant='link'
